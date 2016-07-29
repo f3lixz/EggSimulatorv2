@@ -28,10 +28,10 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
         mLevelChooserWidget = (LevelChooserWidget) view.findViewById(R.id.levelChooser);
         mContinueButton = (Button) view.findViewById(R.id.continueButton);
         mContinueButton.setOnClickListener(this);
-        super.onViewCreated(view, savedInstanceState);
     }
 
     @Override

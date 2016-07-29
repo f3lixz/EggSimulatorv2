@@ -12,19 +12,19 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="50dp"
-            android:src="@drawable/egg_PNG21"
+            android:src="@drawable/egg"
             android:id="@+id/egg1" />
         <ImageView
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="50dp"
-            android:src="@drawable/egg_PNG21"
+            android:src="@drawable/egg"
             android:id="@+id/egg2" />
         <ImageView
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="50dp"
-            android:src="@drawable/egg_PNG21"
+            android:src="@drawable/egg"
             android:id="@+id/egg3" />
     </LinearLayout>
     <Button

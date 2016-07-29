@@ -2,6 +2,7 @@ package se.eggmaster.eggsimulator.Managers;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import com.google.gson.Gson;
 
@@ -38,6 +39,7 @@ public class PlayerManager {
     }
 
     private void saveStorage() {
+        Log.v("felix", "saveStorage");
         Gson gson = new Gson();
         String player = gson.toJson(mPlayer);
         mPrefs.edit().putString(PLAYER_NAME, player).commit();
