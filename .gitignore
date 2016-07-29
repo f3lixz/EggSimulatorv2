@@ -52,3 +52,4 @@ Temporary Items
 .idea/workspace.xml
 *.lock
 .gradle/2.10/taskArtifacts/taskArtifacts.bin
+.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin

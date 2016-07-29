@@ -3,6 +3,7 @@
     <string name="player_level_text">What level do you want to simulate being?</string>
     <string name="pokepop_title">Congratulations! you got a %s!</string>
     <string name="pokepop_name">Name: %1$s</string>
+    <string name="pokepop_level">Level: %1$s</string>
     <string name="pokepop_hp">HP: %1$s</string>
     <string name="pokepop_cp">CP: %1$s</string>
     <string name="pokepop_weight">Weight: %1$s</string>

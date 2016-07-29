@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import se.eggmaster.eggsimulator.MainActivity;
 import se.eggmaster.eggsimulator.R;
 
 /**
@@ -73,6 +74,7 @@ public class EggChooserFragment extends Fragment implements View.OnClickListener
             selected = "10km";
 
         Toast.makeText(getActivity(), selected, Toast.LENGTH_SHORT).show();
+        ((MainActivity) getActivity()).replaceFragment(new EggOpenerFragment());
 
     }
 }

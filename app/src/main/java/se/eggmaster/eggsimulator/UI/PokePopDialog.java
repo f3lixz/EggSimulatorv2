@@ -17,7 +17,7 @@ import se.eggmaster.eggsimulator.R;
  */
 public class PokePopDialog extends Dialog implements View.OnClickListener {
 
-    private TextView mHPText, mCPText, mHeightText, mWeightText;
+    private TextView mLevelText, mHPText, mCPText, mHeightText, mWeightText;
     private Button mOkButton;
 
     public PokePopDialog(Context context) {
@@ -33,11 +33,13 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.pokemon_dialog);
+        mLevelText = (TextView) findViewById(R.id.levelText);
         mHPText = (TextView) findViewById(R.id.hpText);
         mCPText = (TextView) findViewById(R.id.cpText);
         mWeightText = (TextView) findViewById(R.id.weightText);
         mHeightText = (TextView) findViewById(R.id.heightText);
         mOkButton= (Button) findViewById(R.id.ok_button);
+        mOkButton.setOnClickListener(this);
     }
 
     public void setPokemon() {
