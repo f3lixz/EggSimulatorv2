@@ -6,6 +6,9 @@ import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import se.eggmaster.eggsimulator.Core.Universal;
+import se.eggmaster.eggsimulator.Models.Player;
+import se.eggmaster.eggsimulator.PlayerManager;
 import se.eggmaster.eggsimulator.R;
 
 /**
@@ -16,7 +19,7 @@ public class LevelChooserWidget extends LinearLayout implements SeekBar.OnSeekBa
     private TextView mLevelText;
     private SeekBar mLevelSlider;
 
-    private int mChosenLevel = 0;
+    private PlayerManager mPlayerManager;
 
     public LevelChooserWidget(Context context) {
         super(context);
@@ -33,16 +36,18 @@ public class LevelChooserWidget extends LinearLayout implements SeekBar.OnSeekBa
     @Override
     protected void onFinishInflate() {
         super.onFinishInflate();
+        mPlayerManager = Universal.getPlayerManager();
         mLevelText = (TextView) findViewById(R.id.levelText);
         mLevelSlider = (SeekBar) findViewById(R.id.levelSlider);
-        mLevelText.setText("1");
+        mLevelText.setText(String.valueOf(mPlayerManager.getPlayer().getLevel()));
+        mLevelSlider.setProgress(mPlayerManager.getPlayer().getLevel() -1);
         mLevelSlider.setOnSeekBarChangeListener(this);
     }
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-        mLevelText.setText(String.valueOf(progress + 1));
-        mChosenLevel = progress + 1;
+        mPlayerManager.updateLevel(progress);
+        mLevelText.setText(String.valueOf(mPlayerManager.getPlayer().getLevel()));
     }
 
     @Override
@@ -53,9 +58,5 @@ public class LevelChooserWidget extends LinearLayout implements SeekBar.OnSeekBa
     @Override
     public void onStopTrackingTouch(SeekBar seekBar) {
 
-    }
-
-    public int getChosenLevel() {
-        return mChosenLevel;
     }
 }
