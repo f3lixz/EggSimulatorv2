@@ -4,11 +4,17 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import java.util.Random;
+
+import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Universal;
+import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 import se.eggmaster.eggsimulator.UI.PokePopDialog;
 
@@ -36,7 +42,12 @@ public class EggOpenerFragment extends Fragment implements View.OnClickListener 
     public void onClick(View v) {
         if (mPokePopDialog == null)
             mPokePopDialog = new PokePopDialog(getActivity());
-        if (!mPokePopDialog.isShowing())
-            mPokePopDialog.show();
+
+        int pokeLevel = new Random().nextInt(Universal.getPlayerManager().getPlayer().getLevel()) + 1;
+        int pokeId = new Random().nextInt(9) + 1;
+        Pokemon pokemon = IPokemonNames.getPokemonById(pokeId);
+        pokemon.setLevel(pokeLevel);
+        mPokePopDialog.show();
+        mPokePopDialog.setPokemon(pokemon);
     }
 }
