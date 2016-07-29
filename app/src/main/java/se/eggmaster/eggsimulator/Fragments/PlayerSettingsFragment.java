@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import se.eggmaster.eggsimulator.MainActivity;
 import se.eggmaster.eggsimulator.R;
 import se.eggmaster.eggsimulator.UI.LevelChooserWidget;
 
@@ -35,6 +36,7 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-
+        EggChooserFragment eggChooserFragment = new EggChooserFragment();
+        ((MainActivity) getActivity()).replaceFragment(eggChooserFragment);
     }
 }
