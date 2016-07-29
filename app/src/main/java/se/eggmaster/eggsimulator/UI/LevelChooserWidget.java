@@ -7,8 +7,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import se.eggmaster.eggsimulator.Core.Universal;
-import se.eggmaster.eggsimulator.Models.Player;
-import se.eggmaster.eggsimulator.PlayerManager;
+import se.eggmaster.eggsimulator.Managers.PlayerManager;
 import se.eggmaster.eggsimulator.R;
 
 /**
@@ -39,8 +38,10 @@ public class LevelChooserWidget extends LinearLayout implements SeekBar.OnSeekBa
         mPlayerManager = Universal.getPlayerManager();
         mLevelText = (TextView) findViewById(R.id.levelText);
         mLevelSlider = (SeekBar) findViewById(R.id.levelSlider);
-        mLevelText.setText(String.valueOf(mPlayerManager.getPlayer().getLevel()));
-        mLevelSlider.setProgress(mPlayerManager.getPlayer().getLevel() -1);
+        if (mPlayerManager != null) {
+            mLevelText.setText(String.valueOf(mPlayerManager.getPlayer().getLevel()));
+            mLevelSlider.setProgress(mPlayerManager.getPlayer().getLevel() - 1);
+        }
         mLevelSlider.setOnSeekBarChangeListener(this);
     }
 

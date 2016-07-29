@@ -14,4 +14,13 @@
         android:layout_centerHorizontal="true" />
 
     <include android:id="@+id/levelChooser" layout="@layout/level_chooser_widget"/>
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/general_continue" />
 </LinearLayout>

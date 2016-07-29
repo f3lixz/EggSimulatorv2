@@ -50,3 +50,5 @@ Temporary Items
 .apdisk
 .idea/workspace.xml
 .idea/workspace.xml
+*.lock
+.gradle/2.10/taskArtifacts/taskArtifacts.bin

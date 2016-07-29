@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Egg Simulator</string>
     <string name="player_level_text">What level do you want to simulate being?</string>
+    <string name="general_continue">Continue</string>
 </resources>

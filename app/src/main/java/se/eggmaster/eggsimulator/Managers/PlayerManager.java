@@ -1,4 +1,4 @@
-package se.eggmaster.eggsimulator;
+package se.eggmaster.eggsimulator.Managers;
 
 import android.app.Activity;
 import android.content.SharedPreferences;

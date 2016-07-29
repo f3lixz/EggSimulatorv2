@@ -2,7 +2,7 @@ package se.eggmaster.eggsimulator.Core;
 
 import android.app.Activity;
 
-import se.eggmaster.eggsimulator.PlayerManager;
+import se.eggmaster.eggsimulator.Managers.PlayerManager;
 
 /**
  * Created by FelixTheMaster on 2016-07-29.
