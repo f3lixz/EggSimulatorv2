@@ -1,6 +1,5 @@
 package se.eggmaster.eggsimulator.Fragments;
 
-import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -12,7 +11,6 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import se.eggmaster.eggsimulator.R;
-import se.eggmaster.eggsimulator.UI.LevelChooserWidget;
 
 /**
  * Created by FelixTheMaster on 2016-07-29.
