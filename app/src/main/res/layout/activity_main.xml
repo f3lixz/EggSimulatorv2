@@ -6,17 +6,8 @@
     android:orientation="vertical"
     tools:context="se.eggmaster.eggsimulator.MainActivity">
 
-    <TextView
-        android:id="@+id/playerLevelText"
-        android:paddingTop="24dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/player_level_text"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <include android:id="@+id/levelChooser" layout="@layout/level_chooser_widget"/>
-
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </LinearLayout>
