@@ -2,6 +2,8 @@ package se.eggmaster.eggsimulator.Models;
 
 import com.google.gson.annotations.SerializedName;
 
+import se.eggmaster.eggsimulator.Core.Universal;
+
 /**
  * Created by FelixTheMaster on 2016-07-29.
  */
@@ -33,11 +35,22 @@ public abstract class Pokemon {
     @SerializedName("height")
     private float mHeight;
 
+    @SerializedName("image")
+    private Integer mImageResource;
+
     public Pokemon(String name, float baseAttack, float baseDefence, float baseStamina) {
         mName = name;
         mBaseAttack = baseAttack;
         mBaseDefence = baseDefence;
         mBaseStamina = baseStamina;
+    }
+
+    public Pokemon(String name, float baseAttack, float baseDefence, float baseStamina, Integer imageres) {
+        mName = name;
+        mBaseAttack = baseAttack;
+        mBaseDefence = baseDefence;
+        mBaseStamina = baseStamina;
+        mImageResource = imageres;
     }
 
     public Pokemon(String name, int level, int hp, int cp, float weight, float height) {
@@ -91,6 +104,10 @@ public abstract class Pokemon {
 
     public float getBaseStamina() {
         return mBaseStamina;
+    }
+
+    public Integer getImageRes() {
+        return mImageResource;
     }
 
     @Override

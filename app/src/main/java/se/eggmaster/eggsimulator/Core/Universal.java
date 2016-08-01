@@ -1,6 +1,7 @@
 package se.eggmaster.eggsimulator.Core;
 
 import android.app.Activity;
+import android.content.Context;
 
 import se.eggmaster.eggsimulator.Managers.PlayerManager;
 
@@ -9,14 +10,20 @@ import se.eggmaster.eggsimulator.Managers.PlayerManager;
  */
 public final class Universal {
     private static PlayerManager mPlayerManager;
+    private static Context mainContext;
 
 
     public static void init(Activity activity) {
+        mainContext = activity;
         mPlayerManager = new PlayerManager(activity);
     }
 
     public static PlayerManager getPlayerManager() {
         return mPlayerManager;
+    }
+
+    public static Context getMainContext() {
+        return mainContext;
     }
 
 }

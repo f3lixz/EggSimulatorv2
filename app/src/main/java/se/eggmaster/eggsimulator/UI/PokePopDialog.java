@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import se.eggmaster.eggsimulator.Core.PokemonGenerator;
@@ -19,6 +20,7 @@ import se.eggmaster.eggsimulator.R;
 public class PokePopDialog extends Dialog implements View.OnClickListener {
 
     private TextView mNameText, mLevelText, mHPText, mCPText, mHeightText, mWeightText;
+    private ImageView mImage;
     private Button mOkButton;
 
     private Pokemon mPokemon;
@@ -36,9 +38,10 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         mLevelText = (TextView) findViewById(R.id.lvlText);
         mHPText = (TextView) findViewById(R.id.hpText);
         mCPText = (TextView) findViewById(R.id.cpText);
-        mWeightText = (TextView) findViewById(R.id.weightText);
-        mHeightText = (TextView) findViewById(R.id.heightText);
+        //mWeightText = (TextView) findViewById(R.id.weightText);
+        //mHeightText = (TextView) findViewById(R.id.heightText);
         mOkButton= (Button) findViewById(R.id.ok_button);
+        mImage = (ImageView) findViewById(R.id.pokeImage);
         mOkButton.setOnClickListener(this);
     }
 
@@ -47,6 +50,8 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         mLevelText.setText(getString(R.string.pokepop_level, mPokemon.getLevel()));
         mHPText.setText(getString(R.string.pokepop_hp, mPokemon.getHP()));
         mCPText.setText(getString(R.string.pokepop_cp, mPokemon.getCP()));
+        if (mPokemon.getImageRes() != null)
+            mImage.setImageDrawable(getContext().getResources().getDrawable(mPokemon.getImageRes()));
     }
 
     public void setPokemon(Pokemon pokemon) {
