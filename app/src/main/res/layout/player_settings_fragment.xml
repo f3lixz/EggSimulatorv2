@@ -15,9 +15,81 @@
 
     <include android:id="@+id/levelChooser" layout="@layout/level_chooser_widget"/>
 
+    <TextView
+        android:paddingTop="86dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/choose_egg_size" />
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/egg"
+                android:id="@+id/egg1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="50dp"
+                android:background="#37000000"
+                android:layout_alignBottom="@+id/egg1"
+                android:layout_centerHorizontal="true"
+                android:text="@string/twokm"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/egg"
+                android:id="@+id/egg2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="50dp"
+                android:background="#37000000"
+                android:layout_alignBottom="@+id/egg2"
+                android:layout_centerHorizontal="true"
+                android:text="@string/fivekm"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/egg"
+                android:id="@+id/egg3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="50dp"
+                android:background="#37000000"
+                android:layout_alignBottom="@+id/egg3"
+                android:layout_centerHorizontal="true"
+                android:text="@string/tenkm"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
     <Button
         android:id="@+id/continueButton"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="44dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:layout_width="match_parent"
