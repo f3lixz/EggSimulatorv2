@@ -28,18 +28,15 @@ public final class PokemonGenerator {
         double minCP = Math.max(Math.floor(basePokemon.getBaseAttack() * Math.sqrt(basePokemon.getBaseDefence()) * Math.sqrt(basePokemon.getBaseStamina()) * Math.pow(levelModifier[basePokemon.getLevel() * 2 - 2], 2) / 10), 10);
         double maxCP = Math.max(Math.floor((basePokemon.getBaseAttack() + 15) * Math.sqrt(basePokemon.getBaseDefence()+15) * Math.sqrt(basePokemon.getBaseStamina()+15) * Math.pow(levelModifier[basePokemon.getLevel() *2 - 2], 2) / 10), 10);
 
+        double minHP = Math.max(Math.floor(basePokemon.getBaseStamina() * levelModifier[basePokemon.getLevel() *2 -2]), 10);
+        double maxHP = Math.max(Math.floor((basePokemon.getBaseStamina()+15) * levelModifier[basePokemon.getLevel() *2 -2]), 10);
 
-        double minHP = Math.max(Math.floor(basePokemon.getBaseStamina()) * levelModifier[basePokemon.getLevel() *2 -2], 10);
-        double maxHP = Math.max(Math.floor(basePokemon.getBaseStamina()+15) * levelModifier[basePokemon.getLevel() *2 -2], 10);
+        double cp = minCP + new Random().nextInt((int)maxCP - (int)minCP + 1);
+        double hp = minHP + new Random().nextInt((int)maxHP - (int)minHP + 1);
 
-        int cp = (int) minCP + (int)(Math.random() * maxCP);
-        int hp = (int) minHP + (int)(Math.random() * maxHP);
+        basePokemon.setCP((int)cp);
+        basePokemon.setHP((int)hp);
 
-        basePokemon.setCP(cp);
-        basePokemon.setHP(hp);
-
-
-        Log.v("felix", "mincp for a level " + basePokemon.getLevel() + " " + basePokemon.getName() + ", is: " + minCP);
         return basePokemon;
    }
 }
