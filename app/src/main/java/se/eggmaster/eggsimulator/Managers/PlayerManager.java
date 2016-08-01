@@ -7,6 +7,7 @@ import android.util.Log;
 import com.google.gson.Gson;
 
 import se.eggmaster.eggsimulator.Models.Player;
+import se.eggmaster.eggsimulator.Models.Pokemon;
 
 /**
  * Created by FelixTheMaster on 2016-07-29.
@@ -34,12 +35,17 @@ public class PlayerManager {
         saveStorage();
     }
 
+    public void addPokemon(Pokemon pokemon)  {
+        mPlayer.addPokemon(pokemon);
+        saveStorage();
+    }
+
     public Player getPlayer() {
         return mPlayer;
     }
 
     private void saveStorage() {
-        Log.v("felix", "saveStorage");
+        Log.v("felix", "saveStorages");
         Gson gson = new Gson();
         String player = gson.toJson(mPlayer);
         mPrefs.edit().putString(PLAYER_NAME, player).commit();

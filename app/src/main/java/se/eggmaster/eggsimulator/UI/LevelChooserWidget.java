@@ -47,7 +47,7 @@ public class LevelChooserWidget extends LinearLayout implements SeekBar.OnSeekBa
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-        mPlayerManager.updateLevel(progress);
+        mPlayerManager.updateLevel(progress + 1);
         mLevelText.setText(String.valueOf(mPlayerManager.getPlayer().getLevel()));
     }
 

@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import se.eggmaster.eggsimulator.Core.PokemonGenerator;
 import se.eggmaster.eggsimulator.Core.Universal;
@@ -20,9 +21,6 @@ public class MainActivity extends AppCompatActivity {
         Universal.init(this);
         setContentView(R.layout.activity_main);
         setPlayerFragment();
-        Pokemon poke = new Bulbasaur();
-        poke.setLevel(5);
-        PokemonGenerator.generatePokemon(poke);
     }
 
     private void setPlayerFragment() {

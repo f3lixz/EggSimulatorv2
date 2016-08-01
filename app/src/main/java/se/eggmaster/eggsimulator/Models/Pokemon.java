@@ -2,12 +2,14 @@ package se.eggmaster.eggsimulator.Models;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
+
 import se.eggmaster.eggsimulator.Core.Universal;
 
 /**
  * Created by FelixTheMaster on 2016-07-29.
  */
-public abstract class Pokemon {
+public abstract class Pokemon implements Serializable {
     @SerializedName("name")
     private String mName;
 

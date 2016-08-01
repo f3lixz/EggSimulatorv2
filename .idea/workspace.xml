@@ -21,7 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c9aab43-5f3e-494e-95af-e700b22b309b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggChooserFragment.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PokemonManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -31,8 +31,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/player_settings_fragment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/player_settings_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PlayerManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PlayerManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Player.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemon.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arbok.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arbok.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Beedrill.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Beedrill.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Butterfree.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Butterfree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Caterpie.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Caterpie.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ekans.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ekans.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Fearow.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Fearow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kakuna.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kakuna.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Metapod.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Metapod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeot.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeotto.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeotto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgey.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgey.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pikachu.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pikachu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raichu.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raichu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raticate.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raticate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rattata.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rattata.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Spearow.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Spearow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weedle.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weedle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/LevelChooserWidget.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/LevelChooserWidget.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/PokePopDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/PokePopDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/level_chooser_widget.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/level_chooser_widget.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/pokemon_dialog.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/pokemon_dialog.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Egg Simulator.iws" />
@@ -65,54 +89,108 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/PokePopDialog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+              <caret line="75" column="98" selection-start-line="75" selection-start-column="98" selection-end-line="75" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1717#1771#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="egg_chooser_fragment.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/egg_chooser_fragment.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2363636">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerSettingsFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerSettingsFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46503496">
-              <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player_settings_fragment.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/player_settings_fragment.xml">
+      <file leaf-file-name="LevelChooserWidget.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/LevelChooserWidget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="level_chooser_widget.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/level_chooser_widget.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.0">
-              <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+            <state vertical-scroll-proportion="-3.4">
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PlayerManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PokemonManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PokemonManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17857143">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pokemon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#508#535#0" expanded="true" />
-                <element signature="e#958#983#0" expanded="true" />
-                <element signature="e#1930#1945#0" expanded="true" />
-                <element signature="e#2728#2744#0" expanded="true" />
-                <element signature="e#3527#3542#0" expanded="true" />
-                <element signature="e#3879#3905#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arbok.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arbok.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+              <folding>
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="5" selection-start-line="34" selection-start-column="44" selection-end-line="40" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1722,42 +1800,17 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Player.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/PlayerManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/LevelChooserWidget.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/level_chooser_widget.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PlayerManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/egg_chooser_fragment.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/selected_border.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/egg_opener_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggChooserFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pikachu.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Moltres.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arbok.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Beedrill.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Butterfree.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Caterpie.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ekans.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Fearow.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kakuna.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Metapod.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mewtwo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeot.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeotto.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgey.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raichu.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raticate.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rattata.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Spearow.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weedle.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/IPokemonNames.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Universal.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemon.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/PokePopDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Blastoise.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Bulbasaur.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charmander.java" />
@@ -1766,11 +1819,36 @@
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Squirtle.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Venusaur.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Wartortle.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/pokemon_dialog.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charizard.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/player_settings_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arbok.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Beedrill.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Butterfree.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Caterpie.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ekans.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Fearow.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kakuna.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Metapod.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeot.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeotto.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgey.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pikachu.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raichu.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raticate.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rattata.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Spearow.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weedle.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/pokemon_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemon.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/LevelChooserWidget.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/level_chooser_widget.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/PokePopDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Player.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PlayerManager.java" />
       </list>
     </option>
   </component>
@@ -1970,6 +2048,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Pokemons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Egg Simulator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eggsimulator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Managers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2301,6 +2401,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9c9aab43-5f3e-494e-95af-e700b22b309b" name="Default" comment="" />
@@ -2320,7 +2423,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33184856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43875277" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18070363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2348,46 +2451,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PlayerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selected_border.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18579236">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -2423,183 +2492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pikachu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#298#299#0" expanded="false" />
-            <element signature="e#356#357#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Moltres.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17832167">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#267#268#0" expanded="false" />
-            <element signature="e#328#329#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arbok.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26771653">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#264#265#0" expanded="false" />
-            <element signature="e#321#322#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Beedrill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Butterfree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Caterpie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ekans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Fearow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kakuna.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2944882">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Metapod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mewtwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2944882">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeotto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26771653">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#333#334#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raichu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26771653">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#266#267#0" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raticate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rattata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Spearow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weedle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24094488">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dragonite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32125986">
@@ -2607,16 +2499,6 @@
           <folding>
             <element signature="e#277#278#0" expanded="false" />
             <element signature="e#335#336#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2640,48 +2522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/IPokemonNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Blastoise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charmeleon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2689,17 +2529,6 @@
           <folding>
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#394#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ivysaur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2737,17 +2566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charmander.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26748252">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Bulbasaur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2756,25 +2574,6 @@
             <element signature="e#308#309#0" expanded="true" />
             <element signature="e#390#391#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charizard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2972028">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pokemon_dialog.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2789,11 +2588,285 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Beedrill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Blastoise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Butterfree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+          <folding>
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Caterpie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charmander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ekans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Fearow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ivysaur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kakuna.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Metapod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mewtwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Moltres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeotto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+          <folding>
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pikachu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raichu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weedle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23776224">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Spearow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2972028">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rattata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2972028">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raticate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2972028">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/IPokemonNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9318182">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39306358">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state vertical-scroll-proportion="-3.528302">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pokemon_dialog.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5272727">
+          <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+          <folding>
+            <element signature="e#925#948#0" expanded="true" />
+            <element signature="e#1288#1311#0" expanded="true" />
+            <element signature="e#1728#1748#0" expanded="true" />
+            <element signature="e#2164#2184#0" expanded="true" />
+            <element signature="e#3787#3807#0" expanded="true" />
+            <element signature="e#4086#4108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2802,34 +2875,98 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.0">
-          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
-          <folding>
-            <element signature="e#508#535#0" expanded="true" />
-            <element signature="e#958#983#0" expanded="true" />
-            <element signature="e#1930#1945#0" expanded="true" />
-            <element signature="e#2728#2744#0" expanded="true" />
-            <element signature="e#3527#3542#0" expanded="true" />
-            <element signature="e#3879#3905#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-3.1272728">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/level_chooser_widget.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/LevelChooserWidget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/UI/PokePopDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+          <caret line="75" column="98" selection-start-line="75" selection-start-column="98" selection-end-line="75" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1717#1771#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46503496">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arbok.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="5" selection-start-line="34" selection-start-column="44" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PlayerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Managers/PokemonManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17857143">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding />
         </state>
       </provider>

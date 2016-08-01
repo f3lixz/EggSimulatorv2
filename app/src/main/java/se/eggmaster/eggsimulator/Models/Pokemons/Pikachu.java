@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import se.eggmaster.eggsimulator.Core.IPokemonNames;
 import se.eggmaster.eggsimulator.Models.Pokemon;
+import se.eggmaster.eggsimulator.R;
 
 /**
  * Created by FelixTheMaster on 2016-07-29.
@@ -12,7 +13,7 @@ public class Pikachu extends Pokemon {
 
 
     public Pikachu() {
-        super(IPokemonNames.PIKACHU, 124, 108, 70);
+        super(IPokemonNames.PIKACHU, 124, 108, 70, R.drawable.pikachu);
     }
 
 }

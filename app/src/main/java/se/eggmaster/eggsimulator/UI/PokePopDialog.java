@@ -9,8 +9,10 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import se.eggmaster.eggsimulator.Core.PokemonGenerator;
+import se.eggmaster.eggsimulator.Core.Universal;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -21,7 +23,7 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
 
     private TextView mNameText, mLevelText, mHPText, mCPText, mHeightText, mWeightText;
     private ImageView mImage;
-    private Button mOkButton;
+    private Button mOkButton, mSaveButton;
 
     private Pokemon mPokemon;
 
@@ -41,8 +43,10 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         //mWeightText = (TextView) findViewById(R.id.weightText);
         //mHeightText = (TextView) findViewById(R.id.heightText);
         mOkButton= (Button) findViewById(R.id.ok_button);
+        mSaveButton = (Button) findViewById(R.id.save_button);
         mImage = (ImageView) findViewById(R.id.pokeImage);
         mOkButton.setOnClickListener(this);
+        mSaveButton.setOnClickListener(saveButtonClickListener);
     }
 
     private void updateViews() {
@@ -56,14 +60,23 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
 
     public void setPokemon(Pokemon pokemon) {
         mPokemon = PokemonGenerator.generatePokemon(pokemon);
-        Log.v("felix", "pokemon: " + mPokemon);
-
         updateViews();
     }
 
     private String getString(int resId, Object... params) {
         return getContext().getString(resId, params);
     }
+
+    private View.OnClickListener saveButtonClickListener = new View.OnClickListener() {
+        final Context mContext = getContext();
+        @Override
+        public void onClick(View v) {
+            Universal.getPlayerManager().addPokemon(mPokemon);
+            Toast.makeText(mContext, "Saved " + mPokemon.getName(), Toast.LENGTH_SHORT).show();
+            Log.v("felix", "my pokes: " + Universal.getPlayerManager().getPlayer().getPokemons());
+            dismiss();
+        }
+    };
 
     @Override
     public void onClick(View v) {
