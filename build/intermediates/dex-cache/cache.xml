@@ -1,3 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4a369fd4edbe5442a067f75c20eca04f088dfed2">
+        <dex dex="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5847a9fc21d4bf010c6df7d7eb7d589b0eee5bdd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_d5e8c7bc28fb27bbfa801e1b8c68b0630ceda42c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_471fe1b91e51f3f318c45dc56f413675d5903683\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f3b8bfab5bb2028edc9e19f10a5d8a32ca2fe790">
+        <dex dex="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_78aaaeca4b3bb0f8147e61f748863d5fd935f3af\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_12f363f6be6b0a05b1f85af0c60590d4001e9bd4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_258a87d9d9459342d8d075be9c6a2e6bc36527a0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FelixTheMaster\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.2\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1f96456ca233dec780aa224bff076d8e8bca3908">
+        <dex dex="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.2_2770523934d45619964f556d0a76c817ae6f3412\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_8f1175fa3cba63fad970ae966ce2bd44d0d5ed0e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\FelixTheMaster\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\FelixTheMaster\AndroidStudioProjects\EggSimulator\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_6c6e90da8ae3155ac3f84955c033218da7ba0a16\classes.dex" />
+    </item>
+
+</items>
