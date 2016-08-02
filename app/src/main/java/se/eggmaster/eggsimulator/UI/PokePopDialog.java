@@ -63,6 +63,10 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         updateViews();
     }
 
+    public void disableSaveButton() {
+        mSaveButton.setVisibility(View.GONE);
+    }
+
     private String getString(int resId, Object... params) {
         return getContext().getString(resId, params);
     }
