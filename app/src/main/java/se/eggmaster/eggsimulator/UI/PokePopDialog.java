@@ -71,9 +71,8 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         final Context mContext = getContext();
         @Override
         public void onClick(View v) {
-            Universal.getPlayerManager().addPokemon(mPokemon);
+            Universal.getPokemonManager().addPokemon(mPokemon);
             Toast.makeText(mContext, "Saved " + mPokemon.getName(), Toast.LENGTH_SHORT).show();
-            Log.v("felix", "my pokes: " + Universal.getPlayerManager().getPlayer().getPokemons());
             dismiss();
         }
     };

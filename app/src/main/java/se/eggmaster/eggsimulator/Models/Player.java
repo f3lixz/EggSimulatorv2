@@ -16,9 +16,6 @@ public class Player implements Serializable {
     @SerializedName("region")
     private int mRegion;
 
-    @SerializedName("pokemons")
-    private Pokemon[] mPokemons;
-
 
     public Player() {
         mLevel = 0;
@@ -31,23 +28,4 @@ public class Player implements Serializable {
     public int getLevel() {
         return mLevel;
     }
-
-    public void addPokemon(Pokemon pokemon) {
-        if (mPokemons == null)
-            mPokemons = new Pokemon[1];
-        else
-            mPokemons = new Pokemon[mPokemons.length];
-        mPokemons[mPokemons.length - 1] = pokemon;
-    }
-
-    public Pokemon[] getPokemons() {
-        if (mPokemons == null)
-            mPokemons = new Pokemon[1];
-        return mPokemons;
-    }
-
-    public void clearPokemons() {
-        mPokemons = null;
-    }
-
 }

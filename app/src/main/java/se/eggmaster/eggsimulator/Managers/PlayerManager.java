@@ -35,11 +35,6 @@ public class PlayerManager {
         saveStorage();
     }
 
-    public void addPokemon(Pokemon pokemon)  {
-        mPlayer.addPokemon(pokemon);
-        saveStorage();
-    }
-
     public Player getPlayer() {
         return mPlayer;
     }
