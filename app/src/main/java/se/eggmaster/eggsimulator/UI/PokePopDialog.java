@@ -72,7 +72,7 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         mCPText.setText(getString(R.string.pokepop_cp, mPokemon.getCP()));
 
         if (mPokemon.getImageRes() != null)
-            mImage.setImageDrawable(getContext().getResources().getDrawable(mPokemon.getImageRes()));
+            mImage.setImageResource(mPokemon.getImageRes());
         updateSeekArc();
     }
 

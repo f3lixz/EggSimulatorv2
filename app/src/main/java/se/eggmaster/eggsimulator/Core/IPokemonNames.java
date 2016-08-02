@@ -85,6 +85,8 @@ import se.eggmaster.eggsimulator.Models.Pokemons.Zubat;
  */
 public final class IPokemonNames {
 
+    public static int POKEMON_NR = 73;
+
     public static String BULBASAUR = "Bulbasaur";
     public static String IVYSAUR = "Ivysaur";
     public static String VENUSAUR = "Venusaur";

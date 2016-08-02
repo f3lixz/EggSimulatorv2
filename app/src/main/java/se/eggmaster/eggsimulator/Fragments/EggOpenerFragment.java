@@ -44,7 +44,7 @@ public class EggOpenerFragment extends Fragment implements View.OnClickListener 
             mPokePopDialog = new PokePopDialog(getActivity());
 
         int pokeLevel = new Random().nextInt(Universal.getPlayerManager().getPlayer().getLevel()) + 1;
-        int pokeId = new Random().nextInt(73) + 1;
+        int pokeId = new Random().nextInt(IPokemonNames.POKEMON_NR) + 1;
         Pokemon pokemon = IPokemonNames.getPokemonById(pokeId);
         pokemon.setLevel(pokeLevel);
         mPokePopDialog.show();

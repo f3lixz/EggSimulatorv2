@@ -3,13 +3,14 @@
     <string name="player_level_text">What level do you want to simulate being?</string>
     <string name="choose_egg_size">Choose the specific egg you want to simulate!</string>
     <string name="pokepop_title">Congratulations! you got a %s!</string>
-    <string name="pokepop_name">Name: %1$s</string>
-    <string name="pokepop_level">Level: %1$s</string>
-    <string name="pokepop_hp">HP: %1$s</string>
+    <string name="pokepop_name">%1$s</string>
+    <string name="pokepop_level">Level %1$s</string>
+    <string name="pokepop_hp">%1$s HP</string>
     <string name="pokepop_cp">CP: %1$s</string>
     <string name="pokepop_weight">Weight: %1$s</string>
     <string name="pokepop_length">Length: %1$s</string>
 
+    <string name="egg_dont_crack">Disable cracking: </string>
     <string name="twokm">2 km</string>
     <string name="fivekm">5 km</string>
     <string name="tenkm">10 km</string>
