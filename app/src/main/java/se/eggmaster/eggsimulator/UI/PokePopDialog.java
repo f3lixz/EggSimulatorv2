@@ -11,6 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.triggertrap.seekarc.SeekArc;
+
 import se.eggmaster.eggsimulator.Core.PokemonGenerator;
 import se.eggmaster.eggsimulator.Core.Universal;
 import se.eggmaster.eggsimulator.Models.Pokemon;
@@ -24,6 +26,8 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
     private TextView mNameText, mLevelText, mHPText, mCPText, mHeightText, mWeightText;
     private ImageView mImage;
     private Button mOkButton, mSaveButton;
+
+    private SeekArc mSeekArc;
 
     private Pokemon mPokemon;
 
@@ -45,17 +49,29 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         mOkButton= (Button) findViewById(R.id.ok_button);
         mSaveButton = (Button) findViewById(R.id.save_button);
         mImage = (ImageView) findViewById(R.id.pokeImage);
+        mSeekArc= (SeekArc) findViewById(R.id.seekArc);
         mOkButton.setOnClickListener(this);
         mSaveButton.setOnClickListener(saveButtonClickListener);
     }
 
+    private void updateSeekArc() {
+        int myCP = mPokemon.getCP();
+        int maxCP = PokemonGenerator.getMaxCP(mPokemon);
+        double percentage = ((double) myCP/(double) maxCP) * 100;
+        mSeekArc.setProgress((int) percentage);
+        Log.v("felix", "my: " + myCP + ", max: " + maxCP + ", perc:  " + percentage + ", calc: " + (myCP/maxCP));
+    }
+
     private void updateViews() {
+
         mNameText.setText(getString(R.string.pokepop_name, mPokemon.getName()));
         mLevelText.setText(getString(R.string.pokepop_level, mPokemon.getLevel()));
         mHPText.setText(getString(R.string.pokepop_hp, mPokemon.getHP()));
         mCPText.setText(getString(R.string.pokepop_cp, mPokemon.getCP()));
+
         if (mPokemon.getImageRes() != null)
             mImage.setImageDrawable(getContext().getResources().getDrawable(mPokemon.getImageRes()));
+        updateSeekArc();
     }
 
     public void setPokemon(Pokemon pokemon) {

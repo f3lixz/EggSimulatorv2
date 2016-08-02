@@ -39,4 +39,14 @@ public final class PokemonGenerator {
 
         return basePokemon;
    }
+
+    public static int getMaxCP(Pokemon basePokemon) {
+        double maxCP = Math.max(Math.floor((basePokemon.getBaseAttack() + 15) * Math.sqrt(basePokemon.getBaseDefence()+15) * Math.sqrt(basePokemon.getBaseStamina()+15) * Math.pow(levelModifier[basePokemon.getLevel() *2 - 2], 2) / 10), 10);
+        return (int) maxCP;
+    }
+
+    public static int getMinCP(Pokemon basePokemon) {
+        double minCP = Math.max(Math.floor(basePokemon.getBaseAttack() * Math.sqrt(basePokemon.getBaseDefence()) * Math.sqrt(basePokemon.getBaseStamina()) * Math.pow(levelModifier[basePokemon.getLevel() * 2 - 2], 2) / 10), 10);
+        return (int) minCP;
+    }
 }
