@@ -57,9 +57,11 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
     private void updateSeekArc() {
         int myCP = mPokemon.getCP();
         int maxCP = PokemonGenerator.getMaxCP(mPokemon);
-        double percentage = ((double) myCP/(double) maxCP) * 100;
+        int minCP = PokemonGenerator.getMinCP(mPokemon);
+        int maxCPOffset = maxCP - minCP;
+        int myCPOffset = myCP - minCP;
+        double percentage = ((double) myCPOffset/(double) maxCPOffset) * 100.0;
         mSeekArc.setProgress((int) percentage);
-        Log.v("felix", "my: " + myCP + ", max: " + maxCP + ", perc:  " + percentage + ", calc: " + (myCP/maxCP));
     }
 
     private void updateViews() {
