@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 
 import java.util.Random;
@@ -24,7 +25,9 @@ import se.eggmaster.eggsimulator.UI.PokePopDialog;
 public class EggOpenerFragment extends Fragment implements View.OnClickListener {
 
     private ImageView mEggImage;
+    private CheckBox mSkipCrackCheckBox;
     private PokePopDialog mPokePopDialog;
+    private int mEggState = 0;
 
     @Nullable
     @Override
@@ -34,20 +37,38 @@ public class EggOpenerFragment extends Fragment implements View.OnClickListener 
 
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        mSkipCrackCheckBox = (CheckBox) view.findViewById(R.id.dontCrackCheckbox);
         mEggImage = (ImageView) view.findViewById(R.id.eggImage);
         mEggImage.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        if (mPokePopDialog == null)
-            mPokePopDialog = new PokePopDialog(getActivity());
+        if (mSkipCrackCheckBox.isChecked() || mEggState == 2) {
+            if (mPokePopDialog == null)
+                mPokePopDialog = new PokePopDialog(getActivity());
 
-        int pokeLevel = new Random().nextInt(Universal.getPlayerManager().getPlayer().getLevel()) + 1;
-        int pokeId = new Random().nextInt(IPokemonNames.POKEMON_NR) + 1;
-        Pokemon pokemon = IPokemonNames.getPokemonById(pokeId);
-        pokemon.setLevel(pokeLevel);
-        mPokePopDialog.show();
-        mPokePopDialog.setPokemon(pokemon);
+            int pokeLevel = new Random().nextInt(Universal.getPlayerManager().getPlayer().getLevel()) + 1;
+            int pokeId = new Random().nextInt(IPokemonNames.POKEMON_NR) + 1;
+            Pokemon pokemon = IPokemonNames.getPokemonById(pokeId);
+            pokemon.setLevel(pokeLevel);
+            mPokePopDialog.show();
+            mPokePopDialog.setPokemon(pokemon);
+            mEggState = 0;
+        } else {
+            mEggState++;
+        }
+        switch (mEggState) {
+            case 0:
+                mEggImage.setImageResource(R.drawable.egg);
+                break;
+            case 1:
+                mEggImage.setImageResource(R.drawable.egg_crack_one);
+                break;
+            case 2:
+                mEggImage.setImageResource(R.drawable.egg_crack_two);
+
+        }
+
     }
 }
