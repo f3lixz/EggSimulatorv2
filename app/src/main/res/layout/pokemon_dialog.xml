@@ -64,11 +64,32 @@
         android:layout_alignParentRight="true"
         android:text="@string/pokepop_hp"
         />
+    <TextView
+        android:padding="6dp"
+        android:id="@+id/ivText"
+        android:textSize="18sp"
+        android:background="#33FFFFFF"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pokeImage"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pokepop_iv"
+        />
+    <ProgressBar
+        android:id="@+id/iv_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_below="@id/ivText"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:progress="25"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_below="@+id/pokeImage"
+        android:layout_below="@+id/iv_progress"
         android:layout_marginTop="14dp"
         android:orientation="horizontal">
         <Button

@@ -9,6 +9,7 @@
     <string name="pokepop_cp">CP: %1$s</string>
     <string name="pokepop_weight">Weight: %1$s</string>
     <string name="pokepop_length">Length: %1$s</string>
+    <string name="pokepop_iv">IV: %1$s</string>
 
     <string name="egg_dont_crack">Disable cracking</string>
     <string name="twokm">2 km</string>

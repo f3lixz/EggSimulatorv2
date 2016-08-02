@@ -36,6 +36,7 @@ public final class PokemonGenerator {
 
         basePokemon.setCP((int)cp);
         basePokemon.setHP((int)hp);
+        basePokemon.setUpgraded();
 
         return basePokemon;
    }
@@ -48,5 +49,46 @@ public final class PokemonGenerator {
     public static int getMinCP(Pokemon basePokemon) {
         double minCP = Math.max(Math.floor(basePokemon.getBaseAttack() * Math.sqrt(basePokemon.getBaseDefence()) * Math.sqrt(basePokemon.getBaseStamina()) * Math.pow(levelModifier[basePokemon.getLevel() * 2 - 2], 2) / 10), 10);
         return (int) minCP;
+    }
+
+    public static int getMaxHP(Pokemon basePokemon) {
+        double maxHP = Math.max(Math.floor((basePokemon.getBaseStamina()+15) * levelModifier[basePokemon.getLevel() *2 -2]), 10);
+        return (int) maxHP;
+    }
+
+    public static int getMinHP(Pokemon  basePokemon) {
+        double minHP = Math.max(Math.floor(basePokemon.getBaseStamina() * levelModifier[basePokemon.getLevel() *2 -2]), 10);
+        return (int) minHP;
+    }
+
+    public static double getCPPercentage(Pokemon basePokemon) {
+        int myCP = basePokemon.getCP();
+        int maxCP = getMaxCP(basePokemon);
+        int minCP = getMinCP(basePokemon);
+        int maxCPOffset = maxCP - minCP;
+        int myCPOffset = myCP - minCP;
+        double percentage = ((double) myCPOffset/(double) maxCPOffset) * 100.0;
+        return percentage;
+    }
+
+    public static double getHPPercentage(Pokemon basePokemon) {
+        int myHP = basePokemon.getHP();
+        int maxHP = getMaxHP(basePokemon);
+        int minHP = getMinHP(basePokemon);
+        int maxHPOffset = maxHP - minHP;
+        int myHPOffset = myHP - minHP;
+        double percentage = ((double) myHPOffset/(double) maxHPOffset) * 100.0;
+        return percentage;
+    }
+
+    public static double getIVPercentage(Pokemon basePokemon) {
+        double cpperc = getCPPercentage(basePokemon);
+        if (cpperc == 0.0)
+            cpperc = 0.1;
+        double hpperc = getHPPercentage(basePokemon);
+        if (hpperc == 0.0)
+            hpperc = 0.1;
+        return (cpperc * hpperc / 100.0);
+
     }
 }

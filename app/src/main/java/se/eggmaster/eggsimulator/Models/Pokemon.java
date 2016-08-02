@@ -40,6 +40,9 @@ public class Pokemon implements Serializable {
     @SerializedName("image")
     private Integer mImageResource;
 
+    @SerializedName("isUpgraded")
+    private boolean mIsUpgraded = false;
+
     public Pokemon(String name, float baseAttack, float baseDefence, float baseStamina) {
         mName = name;
         mBaseAttack = baseAttack;
@@ -86,6 +89,14 @@ public class Pokemon implements Serializable {
 
     public int getLevel() {
         return mLevel;
+    }
+
+    public void setUpgraded() {
+        mIsUpgraded = true;
+    }
+
+    public boolean isUpgraded() {
+        return mIsUpgraded;
     }
 
     public int getHP() {
