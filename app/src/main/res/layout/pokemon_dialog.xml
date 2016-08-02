@@ -66,7 +66,7 @@
         />
     <TextView
         android:padding="6dp"
-        android:id="@+id/ivText"
+        android:id="@+id/ivCPText"
         android:textSize="18sp"
         android:background="#33FFFFFF"
         android:layout_marginTop="24dp"
@@ -74,12 +74,33 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/pokeImage"
         android:layout_centerHorizontal="true"
-        android:text="@string/pokepop_iv"
+        android:text="@string/pokepop_iv_cp"
         />
     <ProgressBar
-        android:id="@+id/iv_progress"
+        android:id="@+id/iv_progress_cp"
         style="@android:style/Widget.ProgressBar.Horizontal"
-        android:layout_below="@id/ivText"
+        android:layout_below="@id/ivCPText"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:progress="25"/>
+    <TextView
+        android:padding="6dp"
+        android:id="@+id/ivHPText"
+        android:textSize="18sp"
+        android:background="#33FFFFFF"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_progress_cp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pokepop_iv_hp"
+        />
+    <ProgressBar
+        android:id="@+id/iv_progress_hp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_below="@id/ivHPText"
         android:layout_width="match_parent"
         android:layout_height="22dp"
         android:layout_marginRight="18dp"
@@ -89,7 +110,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_below="@+id/iv_progress"
+        android:layout_below="@+id/iv_progress_hp"
         android:layout_marginTop="14dp"
         android:orientation="horizontal">
         <Button

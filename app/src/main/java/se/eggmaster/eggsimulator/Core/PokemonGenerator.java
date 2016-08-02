@@ -31,8 +31,12 @@ public final class PokemonGenerator {
         double minHP = Math.max(Math.floor(basePokemon.getBaseStamina() * levelModifier[basePokemon.getLevel() *2 -2]), 10);
         double maxHP = Math.max(Math.floor((basePokemon.getBaseStamina()+15) * levelModifier[basePokemon.getLevel() *2 -2]), 10);
 
+
+
         double cp = minCP + new Random().nextInt((int)maxCP - (int)minCP + 1);
+        Log.v("felix", "[" + basePokemon.getName() + "] msaxcp: " + maxCP + ", my cp: " + cp);
         double hp = minHP + new Random().nextInt((int)maxHP - (int)minHP + 1);
+        Log.v("felix", "[" + basePokemon.getName() + "] maxhp: " + maxHP + ", my hp: " + hp);
 
         basePokemon.setCP((int)cp);
         basePokemon.setHP((int)hp);
@@ -61,34 +65,35 @@ public final class PokemonGenerator {
         return (int) minHP;
     }
 
-    public static double getCPPercentage(Pokemon basePokemon) {
+    public static float getCPPercentage(Pokemon basePokemon) {
         int myCP = basePokemon.getCP();
         int maxCP = getMaxCP(basePokemon);
         int minCP = getMinCP(basePokemon);
         int maxCPOffset = maxCP - minCP;
         int myCPOffset = myCP - minCP;
-        double percentage = ((double) myCPOffset/(double) maxCPOffset) * 100.0;
+        float percentage = ((float) myCPOffset/(float) maxCPOffset) * 100f;
         return percentage;
     }
 
-    public static double getHPPercentage(Pokemon basePokemon) {
+    public static float getHPPercentage(Pokemon basePokemon) {
         int myHP = basePokemon.getHP();
         int maxHP = getMaxHP(basePokemon);
         int minHP = getMinHP(basePokemon);
         int maxHPOffset = maxHP - minHP;
         int myHPOffset = myHP - minHP;
-        double percentage = ((double) myHPOffset/(double) maxHPOffset) * 100.0;
+        float percentage = ((float) myHPOffset/(float) maxHPOffset) * 100f;
         return percentage;
     }
 
-    public static double getIVPercentage(Pokemon basePokemon) {
-        double cpperc = getCPPercentage(basePokemon);
+    public static float getIVPercentage(Pokemon basePokemon) {
+        float cpperc = getCPPercentage(basePokemon);
         if (cpperc == 0.0)
-            cpperc = 0.1;
-        double hpperc = getHPPercentage(basePokemon);
+            cpperc = 1;
+        float hpperc = getHPPercentage(basePokemon);
         if (hpperc == 0.0)
-            hpperc = 0.1;
-        return (cpperc * hpperc / 100.0);
+            hpperc = 1;
+        Log.v("felix", "[" + basePokemon.getName() + "] cpperc:"  + cpperc + ", hpperc: " + hpperc + ", final: " + (cpperc * hpperc / 100.0) + ", ?: " + ((cpperc * hpperc)));
+        return (cpperc * hpperc / 100f);
 
     }
 }

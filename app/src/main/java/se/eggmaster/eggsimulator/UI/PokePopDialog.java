@@ -27,10 +27,10 @@ import se.eggmaster.eggsimulator.R;
  */
 public class PokePopDialog extends Dialog implements View.OnClickListener {
 
-    private TextView mNameText, mLevelText, mHPText, mCPText,mIVText, mHeightText, mWeightText;
+    private TextView mNameText, mLevelText, mHPText, mCPText, mIVCPText, mIVHPText, mHeightText, mWeightText;
     private ImageView mImage;
     private Button mOkButton, mSaveButton;
-    private ProgressBar mIVProgress;
+    private ProgressBar mIVCPProgress, mIVHPProgress;
 
     private SeekArc mSeekArc;
 
@@ -49,16 +49,19 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         mLevelText = (TextView) findViewById(R.id.lvlText);
         mHPText = (TextView) findViewById(R.id.hpText);
         mCPText = (TextView) findViewById(R.id.cpText);
-        mIVText = (TextView) findViewById(R.id.ivText);
+        mIVCPText = (TextView) findViewById(R.id.ivCPText);
+        mIVHPText = (TextView) findViewById(R.id.ivHPText);
         //mWeightText = (TextView) findViewById(R.id.weightText);
         //mHeightText = (TextView) findViewById(R.id.heightText);
         mOkButton= (Button) findViewById(R.id.ok_button);
         mSaveButton = (Button) findViewById(R.id.save_button);
         mImage = (ImageView) findViewById(R.id.pokeImage);
-        mIVProgress = (ProgressBar) findViewById(R.id.iv_progress);
+        mIVCPProgress = (ProgressBar) findViewById(R.id.iv_progress_cp);
+        mIVHPProgress = (ProgressBar) findViewById(R.id.iv_progress_hp);
         mSeekArc= (SeekArc) findViewById(R.id.seekArc);
         mOkButton.setOnClickListener(this);
-        mIVProgress.setProgressDrawable(getContext().getResources().getDrawable(R.drawable.progresscolor));
+        mIVCPProgress.setProgressDrawable(getContext().getResources().getDrawable(R.drawable.progresscolor));
+        mIVHPProgress.setProgressDrawable(getContext().getResources().getDrawable(R.drawable.progresscolor));
         mSaveButton.setOnClickListener(saveButtonClickListener);
     }
 
@@ -66,16 +69,24 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         mSeekArc.setProgress((int) PokemonGenerator.getCPPercentage(mPokemon));
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mPokemon = null;
+    }
 
     private void updateViews() {
-        int iv = (int) PokemonGenerator.getIVPercentage(mPokemon);
+        int cpiv = Math.round(PokemonGenerator.getCPPercentage(mPokemon));
+        int hpiv = Math.round(PokemonGenerator.getHPPercentage(mPokemon));
 
         mNameText.setText(getString(R.string.pokepop_name, mPokemon.getName()));
         mLevelText.setText(getString(R.string.pokepop_level, mPokemon.getLevel()));
         mHPText.setText(getString(R.string.pokepop_hp, mPokemon.getHP()));
         mCPText.setText(getString(R.string.pokepop_cp, mPokemon.getCP()));
-        mIVText.setText(getString(R.string.pokepop_iv, iv) + "%");
-        mIVProgress.setProgress(iv);
+        mIVCPText.setText(getString(R.string.pokepop_iv_cp, cpiv) + "%");
+        mIVHPText.setText(getString(R.string.pokepop_iv_hp, hpiv) + "%");
+        mIVCPProgress.setProgress(cpiv);
+        mIVHPProgress.setProgress(hpiv);
 
         if (mPokemon.getImageRes() != null)
             mImage.setImageResource(mPokemon.getImageRes());
@@ -83,7 +94,7 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
     }
 
     public void setPokemon(Pokemon pokemon) {
-        if (pokemon.isUpgraded())
+        if (pokemon.getCP() != 0)
             mPokemon = pokemon;
         else
             mPokemon = PokemonGenerator.generatePokemon(pokemon);

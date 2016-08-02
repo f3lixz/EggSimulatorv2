@@ -398,7 +398,9 @@ public final class IPokemonNames {
     }
 
     public static Pokemon getPokemonById(int id) {
-        return mPokemonById.get(id);
+        Pokemon pokemonTemplate = mPokemonById.get(id);
+        Pokemon pokemonClose = new Pokemon(pokemonTemplate.getName(), pokemonTemplate.getBaseAttack(), pokemonTemplate.getBaseDefence(), pokemonTemplate.getBaseStamina(), pokemonTemplate.getImageRes());
+        return pokemonClose;
     }
 
 }
