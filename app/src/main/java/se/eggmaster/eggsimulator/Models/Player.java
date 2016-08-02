@@ -18,7 +18,7 @@ public class Player implements Serializable {
 
 
     public Player() {
-        mLevel = 0;
+        mLevel = 1;
     }
 
     public void setLevel(int level) {
