@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@android:color/white"
+        android:background="@color/backgroundColor"
         android:numColumns="auto_fit"
         android:columnWidth="200px"
         android:stretchMode="columnWidth" />
