@@ -17,6 +17,7 @@ import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Core.Universal;
 import se.eggmaster.eggsimulator.MainActivity;
 import se.eggmaster.eggsimulator.R;
+import se.eggmaster.eggsimulator.UI.InfoDialog;
 import se.eggmaster.eggsimulator.UI.LevelChooserWidget;
 
 /**
@@ -88,6 +89,8 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
                     v.setSelected(true);
                     v.setBackground(getResources().getDrawable(R.drawable.selected_border));
                     v.invalidate();
+                } else {
+                    new InfoDialog(getContext(), eggId).show();
                 }
             }
         };

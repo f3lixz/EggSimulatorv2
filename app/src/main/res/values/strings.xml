@@ -15,6 +15,9 @@
     <string name="actionbar_home">Startpage</string>
     <string name="actionbar_pokebag">Pokemon bag</string>
 
+    <string name="info_dialog_title_pokemon_missing">You can\'t access this egg yet!</string>
+    <string name="info_dialog_body_pokemon_missing">You need to have caught all the pokemons that exists in the previous egg to proceed to the next one. These are your remaining ones: </string>
+
     <string name="error_choose_egg">Choose the egg you want to open before proceeding</string>
 
     <string name="egg_dont_crack">Disable cracking</string>

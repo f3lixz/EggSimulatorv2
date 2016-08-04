@@ -2,6 +2,7 @@ package se.eggmaster.eggsimulator.Core;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 
 import se.eggmaster.eggsimulator.Managers.PlayerManager;
@@ -330,14 +331,14 @@ public final class Pokedex {
         mPokemonById.add(151, new Mew());
     }
 
-    static int[] mTwoKMEgg = {1, 4, 7, 10, 13, 16, 19, 21, 25, 35, 39, 41, 74, 129};
-    static int[] mFiveKMEgg = {23, 27, 37, 43, 46, 48, 50, 52, 54, 56, 58, 60, 63, 66, 69, 72, 77, 79, 81, 84, 86, 88, 90, 92, 96, 98, 100, 102, 104, 108,
+    static Integer[] mTwoKMEgg = {1, 4, 7, 10, 13, 16, 19, 21, 25, 35, 39, 41, 74, 129};
+    static Integer[] mFiveKMEgg = {23, 27, 37, 43, 46, 48, 50, 52, 54, 56, 58, 60, 63, 66, 69, 72, 77, 79, 81, 84, 86, 88, 90, 92, 96, 98, 100, 102, 104, 108,
     109, 111, 114, 115, 116, 118, 120, 128, 137};
-    static int[] mTenKMEgg = {95, 106, 107, 113, 122, 123, 124, 125, 126, 127, 131, 133, 138, 140, 142, 143, 147};
+    static Integer[] mTenKMEgg = {95, 106, 107, 113, 122, 123, 124, 125, 126, 127, 131, 133, 138, 140, 142, 143, 147};
 
 
     public static Pokemon getRandomPokemon(int egg, int playerLevel) {
-        int[] pokeSection;
+        Integer[] pokeSection;
         switch (egg) {
             case EGG_2KM:
                 pokeSection = mTwoKMEgg;
@@ -362,6 +363,19 @@ public final class Pokedex {
         return pokemon;
     }
 
+    public static List<Integer> getEggsPokemonIds(int egg) {
+        switch (egg) {
+            case EGG_2KM:
+                return Arrays.asList(mTwoKMEgg);
+            case EGG_5KM:
+                return Arrays.asList(mFiveKMEgg);
+            case EGG_10KM:
+                return Arrays.asList(mTenKMEgg);
+            default:
+                return Arrays.asList(mTwoKMEgg);
+        }
+    }
+
     public static Pokemon getPokemonById(int id) {
         Pokemon pokemonTemplate = mPokemonById.get(id);
         Pokemon pokemonClose = new Pokemon(pokemonTemplate.getName(), pokemonTemplate.getBaseAttack(), pokemonTemplate.getBaseDefence(), pokemonTemplate.getBaseStamina(), pokemonTemplate.getImageRes());
@@ -370,6 +384,15 @@ public final class Pokedex {
 
     public static int getPokedexIndex(Pokemon pokemon) {
         return mPokemonById.indexOf(pokemon);
+    }
+
+
+    public static ArrayList<Pokemon> getPokemonsFromIds(ArrayList<Integer> ids) {
+        ArrayList<Pokemon> pokemons = new ArrayList<>();
+        for (int id : ids) {
+            pokemons.add(getPokemonById(id));
+        }
+        return pokemons;
     }
 
     public static void updateMyPokedex() {

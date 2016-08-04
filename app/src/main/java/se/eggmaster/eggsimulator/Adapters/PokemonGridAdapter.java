@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -22,10 +23,19 @@ public class PokemonGridAdapter extends BaseAdapter {
 
     private ArrayList<Pokemon> mPokemons;
     private Context mContext;
+    private View.OnClickListener mOnClickListener;
+    private boolean mCustomOnClick = false;
 
     public PokemonGridAdapter(Context context, ArrayList<Pokemon> pokemons) {
         mPokemons = pokemons;
         mContext = context;
+    }
+
+    public PokemonGridAdapter(Context context, ArrayList<Pokemon> pokemons, View.OnClickListener customOnClick) {
+        mPokemons = pokemons;
+        mContext = context;
+        mOnClickListener = customOnClick;
+        mCustomOnClick = true;
     }
 
     @Override
@@ -57,7 +67,16 @@ public class PokemonGridAdapter extends BaseAdapter {
         imageView.setImageResource(pokemon.getImageRes());
         TextView textView = (TextView) gridItem.findViewById(R.id.pokeCP);
         textView.setText(String.valueOf(pokemon.getCP()));
-        gridItem.setOnClickListener(gridOnClickListener(pokemon));
+        LinearLayout mCpTextContainer = (LinearLayout) gridItem.findViewById(R.id.pokepicText);
+        if (pokemon.getCP() == 0)
+            mCpTextContainer.setVisibility(View.GONE);
+        else
+            mCpTextContainer.setVisibility(View.VISIBLE);
+        if (!mCustomOnClick) {
+            gridItem.setOnClickListener(gridOnClickListener(pokemon));
+        } else {
+            gridItem.setOnClickListener(mOnClickListener);
+        }
         return gridItem;
     }
 
