@@ -5,7 +5,7 @@ import android.util.Log;
 import java.util.Random;
 
 import se.eggmaster.eggsimulator.Models.Pokemon;
-import se.eggmaster.eggsimulator.Models.Pokemons.Pikachu;
+import se.eggmaster.eggsimulator.Models.PokemonContainer.Pikachu;
 
 /**
  * Created by FelixTheMaster on 2016-07-29.

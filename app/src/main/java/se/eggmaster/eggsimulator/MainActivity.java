@@ -4,13 +4,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 
-import se.eggmaster.eggsimulator.Core.PokemonGenerator;
 import se.eggmaster.eggsimulator.Core.Universal;
 import se.eggmaster.eggsimulator.Fragments.PlayerSettingsFragment;
-import se.eggmaster.eggsimulator.Models.Pokemon;
-import se.eggmaster.eggsimulator.Models.Pokemons.Bulbasaur;
+import se.eggmaster.eggsimulator.Models.PokemonContainer.Bulbasaur;
 
 public class MainActivity extends AppCompatActivity {
 

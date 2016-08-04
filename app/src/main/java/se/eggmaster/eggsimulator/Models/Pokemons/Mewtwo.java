@@ -2,6 +2,7 @@ package se.eggmaster.eggsimulator.Models.Pokemons;
 
 import se.eggmaster.eggsimulator.Core.IPokemonNames;
 import se.eggmaster.eggsimulator.Models.Pokemon;
+import se.eggmaster.eggsimulator.R;
 
 /**
  * Created by FelixTheMaster on 2016-07-29.
@@ -11,6 +12,6 @@ import se.eggmaster.eggsimulator.Models.Pokemon;
 public class Mewtwo extends Pokemon {
 
     public Mewtwo() {
-        super(IPokemonNames.BULBASAUR,284,202,212);
+        super(IPokemonNames.MEWTWO, 284, 202, 212, R.drawable.mewtwo);
     }
 }

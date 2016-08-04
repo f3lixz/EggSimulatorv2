@@ -3,89 +3,15 @@ package se.eggmaster.eggsimulator.Core;
 import java.util.ArrayList;
 
 import se.eggmaster.eggsimulator.Models.Pokemon;
-import se.eggmaster.eggsimulator.Models.Pokemons.Abra;
-import se.eggmaster.eggsimulator.Models.Pokemons.Alakazam;
-import se.eggmaster.eggsimulator.Models.Pokemons.Arbok;
-import se.eggmaster.eggsimulator.Models.Pokemons.Arcanine;
-import se.eggmaster.eggsimulator.Models.Pokemons.Beedrill;
-import se.eggmaster.eggsimulator.Models.Pokemons.Bellsprout;
-import se.eggmaster.eggsimulator.Models.Pokemons.Blastoise;
-import se.eggmaster.eggsimulator.Models.Pokemons.Bulbasaur;
-import se.eggmaster.eggsimulator.Models.Pokemons.Butterfree;
-import se.eggmaster.eggsimulator.Models.Pokemons.Caterpie;
-import se.eggmaster.eggsimulator.Models.Pokemons.Charizard;
-import se.eggmaster.eggsimulator.Models.Pokemons.Charmander;
-import se.eggmaster.eggsimulator.Models.Pokemons.Charmeleon;
-import se.eggmaster.eggsimulator.Models.Pokemons.Clefable;
-import se.eggmaster.eggsimulator.Models.Pokemons.Clefairy;
-import se.eggmaster.eggsimulator.Models.Pokemons.Diglett;
-import se.eggmaster.eggsimulator.Models.Pokemons.Dragonite;
-import se.eggmaster.eggsimulator.Models.Pokemons.Dugtrio;
-import se.eggmaster.eggsimulator.Models.Pokemons.Ekans;
-import se.eggmaster.eggsimulator.Models.Pokemons.Fearow;
-import se.eggmaster.eggsimulator.Models.Pokemons.Gloom;
-import se.eggmaster.eggsimulator.Models.Pokemons.Golbat;
-import se.eggmaster.eggsimulator.Models.Pokemons.Golduck;
-import se.eggmaster.eggsimulator.Models.Pokemons.Growlithe;
-import se.eggmaster.eggsimulator.Models.Pokemons.Ivysaur;
-import se.eggmaster.eggsimulator.Models.Pokemons.Jigglypuff;
-import se.eggmaster.eggsimulator.Models.Pokemons.Kadabra;
-import se.eggmaster.eggsimulator.Models.Pokemons.Kakuna;
-import se.eggmaster.eggsimulator.Models.Pokemons.Machamp;
-import se.eggmaster.eggsimulator.Models.Pokemons.Machoke;
-import se.eggmaster.eggsimulator.Models.Pokemons.Machop;
-import se.eggmaster.eggsimulator.Models.Pokemons.Mankey;
-import se.eggmaster.eggsimulator.Models.Pokemons.Meowth;
-import se.eggmaster.eggsimulator.Models.Pokemons.Metapod;
-import se.eggmaster.eggsimulator.Models.Pokemons.Mewtwo;
-import se.eggmaster.eggsimulator.Models.Pokemons.Moltres;
-import se.eggmaster.eggsimulator.Models.Pokemons.Nidoking;
-import se.eggmaster.eggsimulator.Models.Pokemons.Nidoqueen;
-import se.eggmaster.eggsimulator.Models.Pokemons.Nidoranf;
-import se.eggmaster.eggsimulator.Models.Pokemons.Nidoranm;
-import se.eggmaster.eggsimulator.Models.Pokemons.Nidorina;
-import se.eggmaster.eggsimulator.Models.Pokemons.Nidorino;
-import se.eggmaster.eggsimulator.Models.Pokemons.Ninetales;
-import se.eggmaster.eggsimulator.Models.Pokemons.Oddish;
-import se.eggmaster.eggsimulator.Models.Pokemons.Paras;
-import se.eggmaster.eggsimulator.Models.Pokemons.Parasect;
-import se.eggmaster.eggsimulator.Models.Pokemons.Persian;
-import se.eggmaster.eggsimulator.Models.Pokemons.Pidgeot;
-import se.eggmaster.eggsimulator.Models.Pokemons.Pidgeotto;
-import se.eggmaster.eggsimulator.Models.Pokemons.Pidgey;
-import se.eggmaster.eggsimulator.Models.Pokemons.Pikachu;
-import se.eggmaster.eggsimulator.Models.Pokemons.Poliwag;
-import se.eggmaster.eggsimulator.Models.Pokemons.Poliwhirl;
-import se.eggmaster.eggsimulator.Models.Pokemons.Poliwrath;
-import se.eggmaster.eggsimulator.Models.Pokemons.Primeape;
-import se.eggmaster.eggsimulator.Models.Pokemons.Psyduck;
-import se.eggmaster.eggsimulator.Models.Pokemons.Raichu;
-import se.eggmaster.eggsimulator.Models.Pokemons.Raticate;
-import se.eggmaster.eggsimulator.Models.Pokemons.Rattata;
-import se.eggmaster.eggsimulator.Models.Pokemons.Sandshrew;
-import se.eggmaster.eggsimulator.Models.Pokemons.Sandslash;
-import se.eggmaster.eggsimulator.Models.Pokemons.Spearow;
-import se.eggmaster.eggsimulator.Models.Pokemons.Squirtle;
-import se.eggmaster.eggsimulator.Models.Pokemons.Tentacool;
-import se.eggmaster.eggsimulator.Models.Pokemons.Tentacruel;
-import se.eggmaster.eggsimulator.Models.Pokemons.Venomoth;
-import se.eggmaster.eggsimulator.Models.Pokemons.Venonat;
-import se.eggmaster.eggsimulator.Models.Pokemons.Venusaur;
-import se.eggmaster.eggsimulator.Models.Pokemons.Victreebel;
-import se.eggmaster.eggsimulator.Models.Pokemons.Vileplume;
-import se.eggmaster.eggsimulator.Models.Pokemons.Vulpix;
-import se.eggmaster.eggsimulator.Models.Pokemons.Wartortle;
-import se.eggmaster.eggsimulator.Models.Pokemons.Weedle;
-import se.eggmaster.eggsimulator.Models.Pokemons.Weepinbell;
-import se.eggmaster.eggsimulator.Models.Pokemons.Wigglytuff;
-import se.eggmaster.eggsimulator.Models.Pokemons.Zubat;
+import se.eggmaster.eggsimulator.Models.PokemonContainer;
+import se.eggmaster.eggsimulator.Models.Pokemons.*;
 
 /**
  * Created by FelixTheMaster on 2016-07-29.
  */
 public final class IPokemonNames {
 
-    public static int POKEMON_NR = 73;
+    public static int POKEMON_NR = 151;
 
     public static String BULBASAUR = "Bulbasaur";
     public static String IVYSAUR = "Ivysaur";
@@ -315,7 +241,7 @@ public final class IPokemonNames {
         mPokemonById.add(71, new Victreebel());
         mPokemonById.add(72, new Tentacool());
         mPokemonById.add(73, new Tentacruel());
-        /*mPokemonById.add(74, new Geodude());
+        mPokemonById.add(74, new Geodude());
         mPokemonById.add(75, new Graveler());
         mPokemonById.add(76, new Golem());
         mPokemonById.add(77, new Ponyta());
@@ -392,7 +318,7 @@ public final class IPokemonNames {
         mPokemonById.add(148, new Dragonair());
         mPokemonById.add(149, new Dragonite());
         mPokemonById.add(150, new Mewtwo());
-        mPokemonById.add(151, new Mew());*/
+        mPokemonById.add(151, new Mew());
 
 
     }

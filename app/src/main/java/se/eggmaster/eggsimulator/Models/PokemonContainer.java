@@ -1,4 +1,4 @@
-package se.eggmaster.eggsimulator.Models.Pokemons;
+package se.eggmaster.eggsimulator.Models;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -10,16 +10,16 @@ import se.eggmaster.eggsimulator.Models.Pokemon;
 /**
  * Created by FelixTheMaster on 2016-08-02.
  */
-public class Pokemons implements Serializable {
+public class PokemonContainer implements Serializable {
 
     @SerializedName("pokemons")
     private ArrayList<Pokemon> mPokemons;
 
-    public Pokemons() {
+    public PokemonContainer() {
         mPokemons = new ArrayList<>();
     }
 
-    public Pokemons(ArrayList<Pokemon> pokemons) {
+    public PokemonContainer(ArrayList<Pokemon> pokemons) {
         mPokemons = pokemons;
     }
 

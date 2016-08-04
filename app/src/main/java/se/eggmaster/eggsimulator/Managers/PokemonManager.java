@@ -2,24 +2,14 @@ package se.eggmaster.eggsimulator.Managers;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
-import android.util.ArraySet;
-import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.annotations.SerializedName;
-import com.google.gson.reflect.TypeToken;
 
-import java.lang.reflect.Array;
-import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
 import se.eggmaster.eggsimulator.Models.Pokemon;
-import se.eggmaster.eggsimulator.Models.Pokemons.Pokemons;
+import se.eggmaster.eggsimulator.Models.PokemonContainer;
 
 /**
  * Created by FelixTheMaster on 2016-08-01.
@@ -30,7 +20,7 @@ public class PokemonManager {
 
     private SharedPreferences mPrefs;
 
-    private Pokemons mPokemons;
+    private PokemonContainer mPokemons;
 
     public PokemonManager(Activity activity) {
         mPrefs = activity.getSharedPreferences(PREFERENCE_NAME, 0);
@@ -38,9 +28,9 @@ public class PokemonManager {
 
         Gson gson = new GsonBuilder().create();
         if (pokemonJson.isEmpty()) {
-            mPokemons = new Pokemons();
+            mPokemons = new PokemonContainer();
         } else {
-            mPokemons = gson.fromJson(pokemonJson, Pokemons.class);
+            mPokemons = gson.fromJson(pokemonJson, PokemonContainer.class);
         }
     }
 
