@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Grimer extends Pokemon {
 
     public Grimer() {
-        super(IPokemonNames.GRIMER, 124, 110, 160, R.drawable.grimer);
+        super(Pokedex.GRIMER, 124, 110, 160, R.drawable.grimer);
     }
 }

@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Seadra extends Pokemon {
 
     public Seadra() {
-        super(IPokemonNames.SEADRA, 176, 150, 110, R.drawable.seadra);
+        super(Pokedex.SEADRA, 176, 150, 110, R.drawable.seadra);
     }
 }

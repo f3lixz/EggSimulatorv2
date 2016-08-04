@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Sandshrew extends Pokemon {
 
     public Sandshrew() {
-        super(IPokemonNames.SANDSHREW, 90, 114, 100, R.drawable.sandshrew);
+        super(Pokedex.SANDSHREW, 90, 114, 100, R.drawable.sandshrew);
     }
 }

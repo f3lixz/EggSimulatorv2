@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Farfetchd extends Pokemon {
 
     public Farfetchd() {
-        super(IPokemonNames.FARFETCHD, 138, 132, 104, R.drawable.farfetchd);
+        super(Pokedex.FARFETCHD, 138, 132, 104, R.drawable.farfetchd);
     }
 }

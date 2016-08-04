@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Exeggcute extends Pokemon {
 
     public Exeggcute() {
-        super(IPokemonNames.EXEGGCUTE, 110, 132, 120, R.drawable.exeggcute);
+        super(Pokedex.EXEGGCUTE, 110, 132, 120, R.drawable.exeggcute);
     }
 }

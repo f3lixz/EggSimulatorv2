@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Beedrill extends Pokemon {
 
     public Beedrill() {
-        super(IPokemonNames.BEEDRILL, 144, 130, 130, R.drawable.beedrill);
+        super(Pokedex.BEEDRILL, 144, 130, 130, R.drawable.beedrill);
     }
 }

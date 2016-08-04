@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Gastly extends Pokemon {
 
     public Gastly() {
-        super(IPokemonNames.GASTLY, 136, 82, 60, R.drawable.gastly);
+        super(Pokedex.GASTLY, 136, 82, 60, R.drawable.gastly);
     }
 }

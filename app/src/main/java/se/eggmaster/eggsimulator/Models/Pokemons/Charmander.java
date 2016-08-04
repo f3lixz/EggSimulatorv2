@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -9,6 +9,6 @@ import se.eggmaster.eggsimulator.R;
  */
 public class Charmander extends Pokemon {
     public Charmander() {
-        super(IPokemonNames.CHARMANDER, 128, 108, 78, R.drawable.charmander);
+        super(Pokedex.CHARMANDER, 128, 108, 78, R.drawable.charmander);
     }
 }

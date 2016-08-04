@@ -3,8 +3,6 @@ package se.eggmaster.eggsimulator.Fragments;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AlertDialog;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +11,7 @@ import android.widget.ImageView;
 
 import java.util.Random;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Core.Universal;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
@@ -49,8 +47,8 @@ public class EggOpenerFragment extends Fragment implements View.OnClickListener 
                 mPokePopDialog = new PokePopDialog(getActivity());
 
             int pokeLevel = new Random().nextInt(Universal.getPlayerManager().getPlayer().getLevel()) + 1;
-            int pokeId = new Random().nextInt(IPokemonNames.POKEMON_NR) + 1;
-            Pokemon pokemon = IPokemonNames.getPokemonById(pokeId);
+            int pokeId = new Random().nextInt(Pokedex.POKEMON_NR) + 1;
+            Pokemon pokemon = Pokedex.getPokemonById(pokeId);
             pokemon.setLevel(pokeLevel);
             mPokePopDialog.show();
             mPokePopDialog.setPokemon(pokemon);

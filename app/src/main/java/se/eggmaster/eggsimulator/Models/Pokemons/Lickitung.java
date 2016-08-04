@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Lickitung extends Pokemon {
 
     public Lickitung() {
-        super(IPokemonNames.LICKITUNG, 126, 160, 180, R.drawable.lickitung);
+        super(Pokedex.LICKITUNG, 126, 160, 180, R.drawable.lickitung);
     }
 }

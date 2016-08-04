@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Koffing extends Pokemon {
 
     public Koffing() {
-        super(IPokemonNames.KOFFING, 136, 142, 80, R.drawable.koffing);
+        super(Pokedex.KOFFING, 136, 142, 80, R.drawable.koffing);
     }
 }

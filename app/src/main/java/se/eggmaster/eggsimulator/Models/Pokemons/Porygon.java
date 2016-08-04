@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Porygon extends Pokemon {
 
     public Porygon() {
-        super(IPokemonNames.PORYGON, 156, 158, 130, R.drawable.porygon);
+        super(Pokedex.PORYGON, 156, 158, 130, R.drawable.porygon);
     }
 }

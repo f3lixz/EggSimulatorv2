@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Chansey extends Pokemon {
 
     public Chansey() {
-        super(IPokemonNames.CHANSEY, 40, 60, 500, R.drawable.chansey);
+        super(Pokedex.CHANSEY, 40, 60, 500, R.drawable.chansey);
     }
 }

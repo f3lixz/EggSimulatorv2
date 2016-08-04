@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Rhyhorn extends Pokemon {
 
     public Rhyhorn() {
-        super(IPokemonNames.RHYHORN, 110, 116, 160, R.drawable.rhyhorn);
+        super(Pokedex.RHYHORN, 110, 116, 160, R.drawable.rhyhorn);
     }
 }

@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Seaking extends Pokemon {
 
     public Seaking() {
-        super(IPokemonNames.SEAKING, 172, 160, 160, R.drawable.seaking);
+        super(Pokedex.SEAKING, 172, 160, 160, R.drawable.seaking);
     }
 }

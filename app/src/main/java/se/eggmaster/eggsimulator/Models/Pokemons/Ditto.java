@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Ditto extends Pokemon {
 
     public Ditto() {
-        super(IPokemonNames.DITTO, 110, 110, 96, R.drawable.ditto);
+        super(Pokedex.DITTO, 110, 110, 96, R.drawable.ditto);
     }
 }

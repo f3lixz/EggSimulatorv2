@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Venusaur extends Pokemon {
 
     public Venusaur() {
-        super(IPokemonNames.VENUSAUR, 198, 200, 160, R.drawable.venusaur);
+        super(Pokedex.VENUSAUR, 198, 200, 160, R.drawable.venusaur);
     }
 }

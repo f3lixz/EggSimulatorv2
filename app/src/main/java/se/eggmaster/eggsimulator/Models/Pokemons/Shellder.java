@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Shellder extends Pokemon {
 
     public Shellder() {
-        super(IPokemonNames.SHELLDER, 120, 112, 60, R.drawable.shellder);
+        super(Pokedex.SHELLDER, 120, 112, 60, R.drawable.shellder);
     }
 }

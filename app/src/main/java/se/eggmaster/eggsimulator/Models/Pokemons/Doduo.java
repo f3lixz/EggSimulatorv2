@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Doduo extends Pokemon {
 
     public Doduo() {
-        super(IPokemonNames.DODUO, 126, 96, 70, R.drawable.doduo);
+        super(Pokedex.DODUO, 126, 96, 70, R.drawable.doduo);
     }
 }

@@ -3,13 +3,12 @@ package se.eggmaster.eggsimulator.Core;
 import java.util.ArrayList;
 
 import se.eggmaster.eggsimulator.Models.Pokemon;
-import se.eggmaster.eggsimulator.Models.PokemonContainer;
 import se.eggmaster.eggsimulator.Models.Pokemons.*;
 
 /**
  * Created by FelixTheMaster on 2016-07-29.
  */
-public final class IPokemonNames {
+public final class Pokedex {
 
     public static int POKEMON_NR = 151;
 

@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -9,6 +9,6 @@ import se.eggmaster.eggsimulator.R;
  */
 public class Blastoise extends Pokemon{
     public Blastoise() {
-        super(IPokemonNames.BLASTOISE, 186, 222, 158, R.drawable.blastoise);
+        super(Pokedex.BLASTOISE, 186, 222, 158, R.drawable.blastoise);
     }
 }

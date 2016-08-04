@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Electabuzz extends Pokemon {
 
     public Electabuzz() {
-        super(IPokemonNames.ELECTABUZZ, 198, 160, 130, R.drawable.electabuzz);
+        super(Pokedex.ELECTABUZZ, 198, 160, 130, R.drawable.electabuzz);
     }
 }

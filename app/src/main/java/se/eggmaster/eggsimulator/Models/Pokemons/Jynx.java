@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Jynx extends Pokemon {
 
     public Jynx() {
-        super(IPokemonNames.JYNX, 172, 134, 130, R.drawable.jynx);
+        super(Pokedex.JYNX, 172, 134, 130, R.drawable.jynx);
     }
 }

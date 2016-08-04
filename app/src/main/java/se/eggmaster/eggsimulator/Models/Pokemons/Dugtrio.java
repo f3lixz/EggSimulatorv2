@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Dugtrio extends Pokemon {
 
     public Dugtrio() {
-        super(IPokemonNames.DUGTRIO, 148, 140, 70, R.drawable.dugtrio);
+        super(Pokedex.DUGTRIO, 148, 140, 70, R.drawable.dugtrio);
     }
 }

@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Mew extends Pokemon {
 
     public Mew() {
-        super(IPokemonNames.MEW, 220, 220, 200, R.drawable.mew);
+        super(Pokedex.MEW, 220, 220, 200, R.drawable.mew);
     }
 }

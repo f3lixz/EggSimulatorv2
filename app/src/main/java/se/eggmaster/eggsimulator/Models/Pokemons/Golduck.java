@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Golduck extends Pokemon {
 
     public Golduck() {
-        super(IPokemonNames.GOLDUCK, 194, 176, 160, R.drawable.golduck);
+        super(Pokedex.GOLDUCK, 194, 176, 160, R.drawable.golduck);
     }
 }

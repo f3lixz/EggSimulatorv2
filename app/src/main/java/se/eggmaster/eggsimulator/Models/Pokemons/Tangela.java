@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Tangela extends Pokemon {
 
     public Tangela() {
-        super(IPokemonNames.TANGELA, 164, 152, 130, R.drawable.tangela);
+        super(Pokedex.TANGELA, 164, 152, 130, R.drawable.tangela);
     }
 }

@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Cloyster extends Pokemon {
 
     public Cloyster() {
-        super(IPokemonNames.CLOYSTER, 196, 196, 100, R.drawable.cloyster);
+        super(Pokedex.CLOYSTER, 196, 196, 100, R.drawable.cloyster);
     }
 }

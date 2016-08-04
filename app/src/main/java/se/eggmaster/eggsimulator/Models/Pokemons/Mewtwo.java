@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -12,6 +12,6 @@ import se.eggmaster.eggsimulator.R;
 public class Mewtwo extends Pokemon {
 
     public Mewtwo() {
-        super(IPokemonNames.MEWTWO, 284, 202, 212, R.drawable.mewtwo);
+        super(Pokedex.MEWTWO, 284, 202, 212, R.drawable.mewtwo);
     }
 }

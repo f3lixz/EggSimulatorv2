@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Arbok extends Pokemon {
 
     public Arbok() {
-        super(IPokemonNames.ARBOK, 166, 166, 120, R.drawable.arbok);
+        super(Pokedex.ARBOK, 166, 166, 120, R.drawable.arbok);
     }
 }

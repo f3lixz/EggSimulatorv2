@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Eevee extends Pokemon {
 
     public Eevee() {
-        super(IPokemonNames.EEVEE, 114, 128, 110, R.drawable.eevee);
+        super(Pokedex.EEVEE, 114, 128, 110, R.drawable.eevee);
     }
 }

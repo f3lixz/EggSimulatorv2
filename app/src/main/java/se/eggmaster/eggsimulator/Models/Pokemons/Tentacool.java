@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Tentacool extends Pokemon {
 
     public Tentacool() {
-        super(IPokemonNames.TENTACOOL, 106, 136, 80, R.drawable.tentacool);
+        super(Pokedex.TENTACOOL, 106, 136, 80, R.drawable.tentacool);
     }
 }

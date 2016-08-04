@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -12,6 +12,6 @@ import se.eggmaster.eggsimulator.R;
 public class Dragonite extends Pokemon {
 
     public Dragonite() {
-        super(IPokemonNames.DRAGONITE, 250, 212, 182, R.drawable.dragonite);
+        super(Pokedex.DRAGONITE, 250, 212, 182, R.drawable.dragonite);
     }
 }

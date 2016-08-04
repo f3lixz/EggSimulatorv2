@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Psyduck extends Pokemon {
 
     public Psyduck() {
-        super(IPokemonNames.PSYDUCK, 132, 112, 100, R.drawable.psyduck);
+        super(Pokedex.PSYDUCK, 132, 112, 100, R.drawable.psyduck);
     }
 }

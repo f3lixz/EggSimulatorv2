@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Tauros extends Pokemon {
 
     public Tauros() {
-        super(IPokemonNames.TAUROS, 148, 184, 150, R.drawable.tauros);
+        super(Pokedex.TAUROS, 148, 184, 150, R.drawable.tauros);
     }
 }

@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Machoke extends Pokemon {
 
     public Machoke() {
-        super(IPokemonNames.MACHOKE, 154, 144, 160, R.drawable.machoke);
+        super(Pokedex.MACHOKE, 154, 144, 160, R.drawable.machoke);
     }
 }

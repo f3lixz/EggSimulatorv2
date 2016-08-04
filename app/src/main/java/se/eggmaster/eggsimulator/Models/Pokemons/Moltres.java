@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -9,6 +9,6 @@ import se.eggmaster.eggsimulator.R;
  */
 public class Moltres extends Pokemon {
     public Moltres() {
-        super(IPokemonNames.MOLTRES, 242, 194, 180, R.drawable.moltres);
+        super(Pokedex.MOLTRES, 242, 194, 180, R.drawable.moltres);
     }
 }

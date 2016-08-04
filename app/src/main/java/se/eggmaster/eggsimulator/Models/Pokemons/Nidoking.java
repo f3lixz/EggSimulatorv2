@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Nidoking extends Pokemon {
 
     public Nidoking() {
-        super(IPokemonNames.NIDOKING, 204, 170, 162, R.drawable.nidoking);
+        super(Pokedex.NIDOKING, 204, 170, 162, R.drawable.nidoking);
     }
 }

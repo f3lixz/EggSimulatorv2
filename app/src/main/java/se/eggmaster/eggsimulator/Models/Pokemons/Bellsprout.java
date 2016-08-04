@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Bellsprout extends Pokemon {
 
     public Bellsprout() {
-        super(IPokemonNames.BELLSPROUT, 158, 78, 100, R.drawable.bellsprout);
+        super(Pokedex.BELLSPROUT, 158, 78, 100, R.drawable.bellsprout);
     }
 }

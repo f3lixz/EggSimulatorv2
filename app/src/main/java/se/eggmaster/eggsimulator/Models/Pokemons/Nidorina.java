@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Nidorina extends Pokemon {
 
     public Nidorina() {
-        super(IPokemonNames.NIDORINA, 132, 136, 140, R.drawable.nidorina);
+        super(Pokedex.NIDORINA, 132, 136, 140, R.drawable.nidorina);
     }
 }

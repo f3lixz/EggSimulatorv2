@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Pinsir extends Pokemon {
 
     public Pinsir() {
-        super(IPokemonNames.PINSIR, 184, 186, 130, R.drawable.pinsir);
+        super(Pokedex.PINSIR, 184, 186, 130, R.drawable.pinsir);
     }
 }

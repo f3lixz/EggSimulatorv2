@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Golem extends Pokemon {
 
     public Golem() {
-        super(IPokemonNames.GOLEM, 176, 198, 160, R.drawable.golem);
+        super(Pokedex.GOLEM, 176, 198, 160, R.drawable.golem);
     }
 }

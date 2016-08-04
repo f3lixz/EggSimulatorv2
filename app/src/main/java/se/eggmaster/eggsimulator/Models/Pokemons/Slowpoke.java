@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Slowpoke extends Pokemon {
 
     public Slowpoke() {
-        super(IPokemonNames.SLOWPOKE, 110, 110, 180, R.drawable.slowpoke);
+        super(Pokedex.SLOWPOKE, 110, 110, 180, R.drawable.slowpoke);
     }
 }

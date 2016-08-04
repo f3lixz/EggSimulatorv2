@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Haunter extends Pokemon {
 
     public Haunter() {
-        super(IPokemonNames.HAUNTER, 172, 118, 90, R.drawable.haunter);
+        super(Pokedex.HAUNTER, 172, 118, 90, R.drawable.haunter);
     }
 }

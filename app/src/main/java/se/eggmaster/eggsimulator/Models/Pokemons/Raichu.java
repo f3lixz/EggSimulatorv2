@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Raichu extends Pokemon {
 
     public Raichu() {
-        super(IPokemonNames.RAICHU, 200, 154, 120, R.drawable.raichu);
+        super(Pokedex.RAICHU, 200, 154, 120, R.drawable.raichu);
     }
 }

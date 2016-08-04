@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Paras extends Pokemon {
 
     public Paras() {
-        super(IPokemonNames.PARAS, 122, 120, 70, R.drawable.paras);
+        super(Pokedex.PARAS, 122, 120, 70, R.drawable.paras);
     }
 }

@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Cubone extends Pokemon {
 
     public Cubone() {
-        super(IPokemonNames.CUBONE, 102, 150, 100, R.drawable.cubone);
+        super(Pokedex.CUBONE, 102, 150, 100, R.drawable.cubone);
     }
 }

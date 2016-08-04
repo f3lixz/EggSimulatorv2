@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Aerodactyl extends Pokemon {
 
     public Aerodactyl() {
-        super(IPokemonNames.AERODACTYL, 182, 162, 160, R.drawable.aerodactyl);
+        super(Pokedex.AERODACTYL, 182, 162, 160, R.drawable.aerodactyl);
     }
 }

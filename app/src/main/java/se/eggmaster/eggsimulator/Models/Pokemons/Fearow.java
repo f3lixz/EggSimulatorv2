@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Fearow extends Pokemon {
 
     public Fearow() {
-        super(IPokemonNames.FEAROW, 168, 146, 130, R.drawable.fearow);
+        super(Pokedex.FEAROW, 168, 146, 130, R.drawable.fearow);
     }
 }

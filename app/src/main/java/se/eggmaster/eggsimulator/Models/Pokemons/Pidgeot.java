@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Pidgeot extends Pokemon {
 
     public Pidgeot() {
-        super(IPokemonNames.PIDGEOT, 170, 166, 166, R.drawable.pidgeot);
+        super(Pokedex.PIDGEOT, 170, 166, 166, R.drawable.pidgeot);
     }
 }

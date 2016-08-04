@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Gyarados extends Pokemon {
 
     public Gyarados() {
-        super(IPokemonNames.GYARADOS, 192, 196, 190, R.drawable.gyarados);
+        super(Pokedex.GYARADOS, 192, 196, 190, R.drawable.gyarados);
     }
 }

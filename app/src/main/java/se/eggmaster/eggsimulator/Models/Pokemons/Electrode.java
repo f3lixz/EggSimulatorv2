@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Electrode extends Pokemon {
 
     public Electrode() {
-        super(IPokemonNames.ELECTRODE, 150, 174, 120, R.drawable.electrode);
+        super(Pokedex.ELECTRODE, 150, 174, 120, R.drawable.electrode);
     }
 }

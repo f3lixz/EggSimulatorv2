@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Sandslash extends Pokemon {
 
     public Sandslash() {
-        super(IPokemonNames.SANDSLASH, 150, 172, 150, R.drawable.sandslash);
+        super(Pokedex.SANDSLASH, 150, 172, 150, R.drawable.sandslash);
     }
 }

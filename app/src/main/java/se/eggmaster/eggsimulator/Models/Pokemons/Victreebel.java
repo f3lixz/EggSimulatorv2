@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Victreebel extends Pokemon {
 
     public Victreebel() {
-        super(IPokemonNames.VICTREEBEL, 222, 152, 160, R.drawable.victreebel);
+        super(Pokedex.VICTREEBEL, 222, 152, 160, R.drawable.victreebel);
     }
 }

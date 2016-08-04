@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Magnemite extends Pokemon {
 
     public Magnemite() {
-        super(IPokemonNames.MAGNEMITE, 128, 138, 50, R.drawable.magnemite);
+        super(Pokedex.MAGNEMITE, 128, 138, 50, R.drawable.magnemite);
     }
 }

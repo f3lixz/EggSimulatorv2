@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Seel extends Pokemon {
 
     public Seel() {
-        super(IPokemonNames.SEEL, 104, 138, 130, R.drawable.seel);
+        super(Pokedex.SEEL, 104, 138, 130, R.drawable.seel);
     }
 }

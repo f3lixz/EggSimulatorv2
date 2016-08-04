@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Kadabra extends Pokemon {
 
     public Kadabra() {
-        super(IPokemonNames.KADABRA, 150, 112, 80, R.drawable.kadabra);
+        super(Pokedex.KADABRA, 150, 112, 80, R.drawable.kadabra);
     }
 }

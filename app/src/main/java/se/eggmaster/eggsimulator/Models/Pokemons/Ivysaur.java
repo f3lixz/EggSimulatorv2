@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Ivysaur extends Pokemon {
 
     public Ivysaur() {
-        super(IPokemonNames.IVYSAUR, 156, 158, 120, R.drawable.ivysaur);
+        super(Pokedex.IVYSAUR, 156, 158, 120, R.drawable.ivysaur);
     }
 }

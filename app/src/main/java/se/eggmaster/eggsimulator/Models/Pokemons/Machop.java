@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Machop extends Pokemon {
 
     public Machop() {
-        super(IPokemonNames.MACHOP, 118, 96, 140, R.drawable.machop);
+        super(Pokedex.MACHOP, 118, 96, 140, R.drawable.machop);
     }
 }

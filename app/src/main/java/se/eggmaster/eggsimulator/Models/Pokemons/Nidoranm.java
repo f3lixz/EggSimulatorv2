@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Nidoranm extends Pokemon {
 
     public Nidoranm() {
-        super(IPokemonNames.NIDORANM, 110, 94, 92, R.drawable.nidoranm);
+        super(Pokedex.NIDORANM, 110, 94, 92, R.drawable.nidoranm);
     }
 }

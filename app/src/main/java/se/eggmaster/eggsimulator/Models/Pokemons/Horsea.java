@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Horsea extends Pokemon {
 
     public Horsea() {
-        super(IPokemonNames.HORSEA, 122, 100, 60, R.drawable.horsea);
+        super(Pokedex.HORSEA, 122, 100, 60, R.drawable.horsea);
     }
 }

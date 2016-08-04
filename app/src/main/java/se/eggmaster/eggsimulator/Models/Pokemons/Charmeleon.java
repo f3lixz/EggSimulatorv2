@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -9,6 +9,6 @@ import se.eggmaster.eggsimulator.R;
  */
 public class Charmeleon extends Pokemon {
     public Charmeleon() {
-        super(IPokemonNames.CHARMELEON, 160, 140, 116, R.drawable.charmeleon);
+        super(Pokedex.CHARMELEON, 160, 140, 116, R.drawable.charmeleon);
     }
 }

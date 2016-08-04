@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Zapdos extends Pokemon {
 
     public Zapdos() {
-        super(IPokemonNames.ZAPDOS, 232, 194, 180, R.drawable.zapdos);
+        super(Pokedex.ZAPDOS, 232, 194, 180, R.drawable.zapdos);
     }
 }

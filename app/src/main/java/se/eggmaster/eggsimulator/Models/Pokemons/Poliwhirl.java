@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Poliwhirl extends Pokemon {
 
     public Poliwhirl() {
-        super(IPokemonNames.POLIWHIRL, 132, 132, 130, R.drawable.poliwhirl);
+        super(Pokedex.POLIWHIRL, 132, 132, 130, R.drawable.poliwhirl);
     }
 }

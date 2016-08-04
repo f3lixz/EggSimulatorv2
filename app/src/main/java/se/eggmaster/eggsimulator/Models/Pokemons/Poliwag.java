@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Poliwag extends Pokemon {
 
     public Poliwag() {
-        super(IPokemonNames.POLIWAG, 108, 98, 80, R.drawable.poliwag);
+        super(Pokedex.POLIWAG, 108, 98, 80, R.drawable.poliwag);
     }
 }

@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Voltorb extends Pokemon {
 
     public Voltorb() {
-        super(IPokemonNames.VOLTORB, 102, 124, 80, R.drawable.voltorb);
+        super(Pokedex.VOLTORB, 102, 124, 80, R.drawable.voltorb);
     }
 }

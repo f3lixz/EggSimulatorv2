@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Kabuto extends Pokemon {
 
     public Kabuto() {
-        super(IPokemonNames.KABUTO, 148, 142, 60, R.drawable.kabuto);
+        super(Pokedex.KABUTO, 148, 142, 60, R.drawable.kabuto);
     }
 }

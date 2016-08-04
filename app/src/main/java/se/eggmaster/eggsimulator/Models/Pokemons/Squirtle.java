@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -9,6 +9,6 @@ import se.eggmaster.eggsimulator.R;
  */
 public class Squirtle extends Pokemon {
     public Squirtle() {
-        super(IPokemonNames.SQUIRTLE, 112, 142, 88, R.drawable.squirtle);
+        super(Pokedex.SQUIRTLE, 112, 142, 88, R.drawable.squirtle);
     }
 }

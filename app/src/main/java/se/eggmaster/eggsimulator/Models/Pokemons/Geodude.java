@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Geodude extends Pokemon {
 
     public Geodude() {
-        super(IPokemonNames.GEODUDE, 106, 118, 80, R.drawable.geodude);
+        super(Pokedex.GEODUDE, 106, 118, 80, R.drawable.geodude);
     }
 }

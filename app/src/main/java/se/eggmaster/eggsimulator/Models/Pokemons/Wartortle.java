@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -9,6 +9,6 @@ import se.eggmaster.eggsimulator.R;
  */
 public class Wartortle extends Pokemon {
     public Wartortle() {
-        super(IPokemonNames.WARTORTLE, 144, 176, 118, R.drawable.wartortle);
+        super(Pokedex.WARTORTLE, 144, 176, 118, R.drawable.wartortle);
     }
 }

@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Magneton extends Pokemon {
 
     public Magneton() {
-        super(IPokemonNames.MAGNETON, 186, 180, 100, R.drawable.magneton);
+        super(Pokedex.MAGNETON, 186, 180, 100, R.drawable.magneton);
     }
 }

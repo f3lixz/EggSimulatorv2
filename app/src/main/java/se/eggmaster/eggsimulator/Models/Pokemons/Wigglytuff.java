@@ -1,6 +1,6 @@
 package se.eggmaster.eggsimulator.Models.Pokemons;
 
-import se.eggmaster.eggsimulator.Core.IPokemonNames;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.R;
 
@@ -10,6 +10,6 @@ import se.eggmaster.eggsimulator.R;
 public class Wigglytuff extends Pokemon {
 
     public Wigglytuff() {
-        super(IPokemonNames.WIGGLYTUFF, 168, 108, 280, R.drawable.wigglytuff);
+        super(Pokedex.WIGGLYTUFF, 168, 108, 280, R.drawable.wigglytuff);
     }
 }
