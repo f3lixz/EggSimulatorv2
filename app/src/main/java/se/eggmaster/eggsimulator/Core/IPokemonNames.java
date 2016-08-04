@@ -319,14 +319,16 @@ public final class IPokemonNames {
         mPokemonById.add(149, new Dragonite());
         mPokemonById.add(150, new Mewtwo());
         mPokemonById.add(151, new Mew());
-
-
     }
 
     public static Pokemon getPokemonById(int id) {
         Pokemon pokemonTemplate = mPokemonById.get(id);
         Pokemon pokemonClose = new Pokemon(pokemonTemplate.getName(), pokemonTemplate.getBaseAttack(), pokemonTemplate.getBaseDefence(), pokemonTemplate.getBaseStamina(), pokemonTemplate.getImageRes());
         return pokemonClose;
+    }
+
+    public static int getPokedexIndex(Pokemon pokemon) {
+        return mPokemonById.indexOf(pokemon);
     }
 
 }
