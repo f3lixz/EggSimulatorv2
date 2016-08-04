@@ -16,16 +16,28 @@ public class Player implements Serializable {
     @SerializedName("region")
     private int mRegion;
 
+    @SerializedName("progress")
+    private int mProgress;
+
 
     public Player() {
         mLevel = 1;
+        mProgress = 1;
     }
 
     public void setLevel(int level) {
         mLevel = level;
     }
 
+    public void updateProgress() {
+        mProgress++;
+    }
+
     public int getLevel() {
         return mLevel;
+    }
+
+    public int getProgress() {
+        return mProgress;
     }
 }

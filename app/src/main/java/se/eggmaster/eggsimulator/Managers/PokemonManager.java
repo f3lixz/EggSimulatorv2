@@ -7,7 +7,10 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.Models.PokemonContainer;
 
@@ -36,11 +39,24 @@ public class PokemonManager {
 
     public void addPokemon(Pokemon pokemon) {
         mPokemons.addPokemon(pokemon);
+        mPokemons.addPokemonId(Pokedex.getPokedexIndex(pokemon));
+        Pokedex.updateMyPokedex();
         saveStorage();
     }
 
     public ArrayList<Pokemon> getPokemons() {
         return mPokemons.getPokemons();
+    }
+
+    public ArrayList<Integer> getPokemonIds() {
+        ArrayList<Integer> pokeIds = mPokemons.getPokemonIds();
+        Collections.sort(pokeIds, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer lhs, Integer rhs) {
+                return lhs - rhs;
+            }
+        });
+        return pokeIds;
     }
 
     private void saveStorage() {

@@ -9,4 +9,5 @@
     <color name="lightGreen">#009900</color>
     <color name="green">#336600</color>
     <color name="backgroundColor">#ebf3f5</color>
+    <color name="transparantBlack">#77000000</color>
 </resources>

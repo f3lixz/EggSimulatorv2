@@ -17,6 +17,11 @@ public class PlayerManager {
     private static final String PREFERENCE_NAME = "PlayerPrefsEggSim";
     private static final String PLAYER_NAME = "PlayerNameEggSim";
 
+    public static final int PROGRESS_1_EGG = 1;
+    public static final int PROGRESS_2_EGG = 2;
+    public static final int PROGRESS_3_EGG = 3;
+
+
     private SharedPreferences mPrefs;
     private Player mPlayer;
 
@@ -33,6 +38,10 @@ public class PlayerManager {
     public void updateLevel(int level) {
         mPlayer.setLevel(level);
         saveStorage();
+    }
+
+    public void updateEggProgress() {
+        mPlayer.updateProgress();
     }
 
     public Player getPlayer() {

@@ -1,8 +1,10 @@
 package se.eggmaster.eggsimulator.Core;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
+import se.eggmaster.eggsimulator.Managers.PlayerManager;
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.Models.Pokemons.*;
 
@@ -13,9 +15,11 @@ public final class Pokedex {
 
     public static int POKEMON_NR = 151;
 
-    public final static int EGG_2KM   = 0;
-    public final static int EGG_5KM   = 1;
-    public final static int EGG_10KM  = 2;
+    public final static int EGG_2KM   = 1;
+    public final static int EGG_5KM   = 2;
+    public final static int EGG_10KM  = 3;
+
+    private static ArrayList<IPokedexEvents> mSubscribers = new ArrayList<>();
 
 
     public static String BULBASAUR = "Bulbasaur";
@@ -172,7 +176,7 @@ public final class Pokedex {
 
     static ArrayList<Pokemon> mPokemonById = new ArrayList<>();
     static {
-        mPokemonById.add(0, null);
+        mPokemonById.add(0, new Pokemon("missingno", 0, 0, 0, 0));
         mPokemonById.add(1, new Bulbasaur());
         mPokemonById.add(2, new Ivysaur());
         mPokemonById.add(3, new Venusaur());
@@ -366,6 +370,37 @@ public final class Pokedex {
 
     public static int getPokedexIndex(Pokemon pokemon) {
         return mPokemonById.indexOf(pokemon);
+    }
+
+    public static void updateMyPokedex() {
+        if (Universal.getPlayerManager().getPlayer().getProgress() == PlayerManager.PROGRESS_1_EGG) {
+            if (Universal.getPokemonManager().getPokemonIds().equals(Arrays.asList(mTwoKMEgg))) {
+                Universal.getPlayerManager().updateEggProgress();
+                callSubscribers(Universal.getPlayerManager().getPlayer().getProgress());
+            }
+        } else if (Universal.getPlayerManager().getPlayer().getProgress() == PlayerManager.PROGRESS_2_EGG) {
+            if (Universal.getPokemonManager().getPokemonIds().equals(Arrays.asList(mFiveKMEgg))) {
+                Universal.getPlayerManager().updateEggProgress();
+                callSubscribers(Universal.getPlayerManager().getPlayer().getProgress());
+            }
+        } else if (Universal.getPlayerManager().getPlayer().getProgress() == PlayerManager.PROGRESS_3_EGG) {
+
+        }
+    }
+
+    public static void callSubscribers(int progress) {
+        for (IPokedexEvents subscriber : mSubscribers) {
+            subscriber.finishedEggRequirement(progress);
+        }
+    }
+
+    public static void subscribe(IPokedexEvents caller) {
+        mSubscribers.add(caller);
+    }
+
+    public static void unSubscribe(IPokedexEvents caller) {
+        if (mSubscribers.contains(caller))
+            mSubscribers.remove(caller);
     }
 
 }
