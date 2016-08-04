@@ -23,12 +23,10 @@ import se.eggmaster.eggsimulator.UI.LevelChooserWidget;
  */
 public class PlayerSettingsFragment extends Fragment implements View.OnClickListener {
 
-    private LevelChooserWidget mLevelChooserWidget;
     private Button mContinueButton;
 
     private ImageView mEgg2km, mEgg5km, mEgg10km;
 
-    private GridView mPokeGrid;
     private Integer mSelectedEgg;
 
     @Nullable
@@ -40,8 +38,6 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mLevelChooserWidget = (LevelChooserWidget) view.findViewById(R.id.levelChooser);
-        mPokeGrid = (GridView) view.findViewById(R.id.pokemon_grid);
         mContinueButton = (Button) view.findViewById(R.id.continueButton);
         mContinueButton.setOnClickListener(this);
         mEgg2km = (ImageView) view.findViewById(R.id.egg1);
@@ -51,7 +47,6 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
         mEgg10km = (ImageView) view.findViewById(R.id.egg3);
         mEgg10km.setOnClickListener(getEggOnClickListener(Pokedex.EGG_10KM));
 
-        mPokeGrid.setAdapter(new PokemonGridAdapter(getContext(), Universal.getPokemonManager().getPokemons()));
     }
 
 

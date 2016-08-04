@@ -32,6 +32,7 @@ public class EggOpenerFragment extends Fragment implements View.OnClickListener 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         mEggId = getArguments().getInt(Universal.KEY_EGG_ID, Pokedex.EGG_2KM);
+
         super.onCreate(savedInstanceState);
     }
 

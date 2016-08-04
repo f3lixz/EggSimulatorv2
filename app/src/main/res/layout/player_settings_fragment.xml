@@ -97,13 +97,4 @@
         android:layout_height="wrap_content"
         android:text="@string/general_continue" />
 
-    <GridView
-        android:id="@+id/pokemon_grid"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@android:color/white"
-        android:numColumns="auto_fit"
-        android:columnWidth="200px"
-        android:stretchMode="columnWidth" />
 </LinearLayout>
