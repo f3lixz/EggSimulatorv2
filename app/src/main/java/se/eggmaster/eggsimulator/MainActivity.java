@@ -7,7 +7,6 @@ import android.os.Bundle;
 
 import se.eggmaster.eggsimulator.Core.Universal;
 import se.eggmaster.eggsimulator.Fragments.PlayerSettingsFragment;
-import se.eggmaster.eggsimulator.Models.PokemonContainer.Bulbasaur;
 
 public class MainActivity extends AppCompatActivity {
 

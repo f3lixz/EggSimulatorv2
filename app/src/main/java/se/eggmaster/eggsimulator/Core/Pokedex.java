@@ -1,6 +1,7 @@
 package se.eggmaster.eggsimulator.Core;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import se.eggmaster.eggsimulator.Models.Pokemon;
 import se.eggmaster.eggsimulator.Models.Pokemons.*;
@@ -11,6 +12,11 @@ import se.eggmaster.eggsimulator.Models.Pokemons.*;
 public final class Pokedex {
 
     public static int POKEMON_NR = 151;
+
+    public final static int EGG_2KM   = 0;
+    public final static int EGG_5KM   = 1;
+    public final static int EGG_10KM  = 2;
+
 
     public static String BULBASAUR = "Bulbasaur";
     public static String IVYSAUR = "Ivysaur";
@@ -318,6 +324,38 @@ public final class Pokedex {
         mPokemonById.add(149, new Dragonite());
         mPokemonById.add(150, new Mewtwo());
         mPokemonById.add(151, new Mew());
+    }
+
+    static int[] mTwoKMEgg = {1, 4, 7, 10, 13, 16, 19, 21, 25, 35, 39, 41, 74, 129};
+    static int[] mFiveKMEgg = {23, 27, 37, 43, 46, 48, 50, 52, 54, 56, 58, 60, 63, 66, 69, 72, 77, 79, 81, 84, 86, 88, 90, 92, 96, 98, 100, 102, 104, 108,
+    109, 111, 114, 115, 116, 118, 120, 128, 137};
+    static int[] mTenKMEgg = {95, 106, 107, 113, 122, 123, 124, 125, 126, 127, 131, 133, 138, 140, 142, 143, 147};
+
+
+    public static Pokemon getRandomPokemon(int egg, int playerLevel) {
+        int[] pokeSection;
+        switch (egg) {
+            case EGG_2KM:
+                pokeSection = mTwoKMEgg;
+                break;
+            case EGG_5KM:
+                pokeSection = mFiveKMEgg;
+                break;
+            case EGG_10KM:
+                pokeSection = mTenKMEgg;
+                break;
+            default:
+                pokeSection = mTwoKMEgg;
+                break;
+
+        }
+
+        int pokeLevel = new Random().nextInt(playerLevel) + 1;
+        int eggIndex = new Random().nextInt(pokeSection.length-1) + 1;
+        int pokeId = pokeSection[eggIndex];
+        Pokemon pokemon = Pokedex.getPokemonById(pokeId);
+        pokemon.setLevel(pokeLevel);
+        return pokemon;
     }
 
     public static Pokemon getPokemonById(int id) {

@@ -20,163 +20,27 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java" line="49" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java" line="48" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c9aab43-5f3e-494e-95af-e700b22b309b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/IPokemonNames.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Pokedex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Pokedex.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Pokedex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Universal.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Universal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Abra.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Abra.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Aerodactyl.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Aerodactyl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Alakazam.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Alakazam.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arbok.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arbok.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arcanine.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Arcanine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Articuno.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Articuno.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Beedrill.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Beedrill.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Bellsprout.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Bellsprout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Blastoise.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Blastoise.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Bulbasaur.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Bulbasaur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Butterfree.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Butterfree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Caterpie.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Caterpie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Chansey.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Chansey.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charizard.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charizard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charmander.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charmander.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charmeleon.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Charmeleon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Clefable.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Clefable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Clefairy.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Clefairy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Cloyster.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Cloyster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Cubone.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Cubone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dewgong.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dewgong.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Diglett.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Diglett.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ditto.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ditto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dodrio.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dodrio.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Doduo.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Doduo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dragonair.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dragonair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dragonite.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dragonite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dratini.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dratini.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Drowzee.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Drowzee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dugtrio.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Dugtrio.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Eevee.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Eevee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ekans.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ekans.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Electabuzz.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Electabuzz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Electrode.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Electrode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Exeggcute.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Exeggcute.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Exeggutor.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Exeggutor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Farfetchd.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Farfetchd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Fearow.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Fearow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Flareon.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Flareon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Gastly.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Gastly.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Gengar.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Gengar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Geodude.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Geodude.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Gloom.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Gloom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Golbat.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Golbat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Goldeen.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Goldeen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Golduck.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Golduck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Golem.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Golem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Graveler.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Graveler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Grimer.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Grimer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Growlithe.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Growlithe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Gyarados.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Gyarados.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Haunter.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Haunter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hitmonchan.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hitmonchan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hitmonlee.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hitmonlee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Horsea.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Horsea.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hypno.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hypno.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ivysaur.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ivysaur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Jigglypuff.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Jigglypuff.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Jolteon.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Jolteon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Jynx.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Jynx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kabuto.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kabuto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kabutops.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kabutops.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kadabra.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kadabra.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kakuna.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kakuna.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kangaskhan.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kangaskhan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kingler.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Kingler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Koffing.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Koffing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Krabby.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Krabby.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Lapras.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Lapras.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Lickitung.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Lickitung.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Machamp.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Machamp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Machoke.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Machoke.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Machop.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Machop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Magikarp.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Magikarp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Magmar.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Magmar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Magnemite.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Magnemite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Magneton.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Magneton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mankey.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mankey.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Marowak.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Marowak.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Meowth.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Meowth.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Metapod.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Metapod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mew.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mew.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mewtwo.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mewtwo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Moltres.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Moltres.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/MrMime.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/MrMime.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Muk.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Muk.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidoking.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidoking.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidoqueen.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidoqueen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidoranf.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidoranf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidoranm.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidoranm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidorina.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidorina.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidorino.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Nidorino.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ninetales.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ninetales.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Oddish.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Oddish.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Omanyte.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Omanyte.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Omastar.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Omastar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Onix.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Onix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Paras.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Paras.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Parasect.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Parasect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Persian.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Persian.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeot.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeotto.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgeotto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgey.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pidgey.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pikachu.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pikachu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pinsir.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Pinsir.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Poliwag.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Poliwag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Poliwhirl.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Poliwhirl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Poliwrath.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Poliwrath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ponyta.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Ponyta.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Porygon.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Porygon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Primeape.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Primeape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Psyduck.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Psyduck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raichu.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raichu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rapidash.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rapidash.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raticate.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Raticate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rattata.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rattata.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rhydon.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rhydon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rhyhorn.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rhyhorn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Sandshrew.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Sandshrew.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Sandslash.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Sandslash.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Scyther.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Scyther.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Seadra.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Seadra.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Seaking.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Seaking.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Seel.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Seel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Shellder.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Shellder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Slowbro.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Slowbro.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Slowpoke.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Slowpoke.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Snorlax.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Snorlax.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Spearow.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Spearow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Squirtle.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Squirtle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Starmie.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Starmie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Staryu.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Staryu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Tangela.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Tangela.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Tauros.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Tauros.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Tentacool.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Tentacool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Tentacruel.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Tentacruel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Vaporeon.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Vaporeon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Venomoth.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Venomoth.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Venonat.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Venonat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Venusaur.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Venusaur.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Victreebel.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Victreebel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Vileplume.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Vileplume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Voltorb.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Voltorb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Vulpix.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Vulpix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Wartortle.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Wartortle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weedle.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weedle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weepinbell.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weepinbell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weezing.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weezing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Wigglytuff.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Wigglytuff.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Zapdos.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Zapdos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Zubat.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Zubat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Egg Simulator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -204,15 +68,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pokedex.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pokedex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Pokedex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.039855">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.4210525">
+              <caret line="328" column="61" selection-start-line="328" selection-start-column="61" selection-end-line="328" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#14731#14732#0" expanded="true" />
-                <element signature="e#14783#14784#0" expanded="true" />
+                <element signature="e#16088#16089#0" expanded="true" />
+                <element signature="e#16140#16141#0" expanded="true" />
+                <marker date="1470332632395" expanded="true" signature="15012:15381" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EggOpenerFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerSettingsFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3858785">
+              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+              <folding>
+                <element signature="e#3354#3379#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.8867924">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Universal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Universal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PokemonGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1845,12 +1778,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Cubone.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Marowak.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hitmonlee.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hitmonchan.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Lickitung.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Koffing.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weezing.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rhyhorn.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rhydon.java" />
@@ -1895,7 +1822,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Mew.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemon.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/IPokemonNames.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Universal.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Pokedex.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java" />
       </list>
     </option>
   </component>
@@ -1950,6 +1883,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Egg Simulator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2024,8 +1979,62 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Managers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Egg Simulator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eggsimulator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Egg Simulator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eggsimulator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Egg Simulator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2333,7 +2342,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29064587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29064587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2362,67 +2371,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Cubone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Marowak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="43" selection-start-line="6" selection-start-column="3" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hitmonlee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Hitmonchan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Lickitung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Koffing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Weezing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Models/Pokemons/Rhyhorn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2516,8 +2469,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding>
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2583,8 +2536,8 @@
         <state vertical-scroll-proportion="0.33497536">
           <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
           <folding>
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2776,14 +2729,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Pokedex.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Universal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.039855">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/PokemonGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#14731#14732#0" expanded="true" />
-            <element signature="e#14783#14784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8867924">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Core/Pokedex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4210525">
+          <caret line="328" column="61" selection-start-line="328" selection-start-column="61" selection-end-line="328" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16088#16089#0" expanded="true" />
+            <element signature="e#16140#16141#0" expanded="true" />
+            <marker date="1470332632395" expanded="true" signature="15012:15381" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/EggOpenerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/widget/Toast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89162564">
+          <caret line="305" column="25" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/eggmaster/eggsimulator/Fragments/PlayerSettingsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3858785">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding>
+            <element signature="e#3354#3379#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import se.eggmaster.eggsimulator.Adapters.PokemonGridAdapter;
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Core.Universal;
 import se.eggmaster.eggsimulator.MainActivity;
 import se.eggmaster.eggsimulator.R;
@@ -28,6 +29,7 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
     private ImageView mEgg2km, mEgg5km, mEgg10km;
 
     private GridView mPokeGrid;
+    private Integer mSelectedEgg;
 
     @Nullable
     @Override
@@ -43,20 +45,21 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
         mContinueButton = (Button) view.findViewById(R.id.continueButton);
         mContinueButton.setOnClickListener(this);
         mEgg2km = (ImageView) view.findViewById(R.id.egg1);
-        mEgg2km.setOnClickListener(getEggOnClickListener());
+        mEgg2km.setOnClickListener(getEggOnClickListener(Pokedex.EGG_2KM));
         mEgg5km = (ImageView) view.findViewById(R.id.egg2);
-        mEgg5km.setOnClickListener(getEggOnClickListener());
+        mEgg5km.setOnClickListener(getEggOnClickListener(Pokedex.EGG_5KM));
         mEgg10km = (ImageView) view.findViewById(R.id.egg3);
-        mEgg10km.setOnClickListener(getEggOnClickListener());
+        mEgg10km.setOnClickListener(getEggOnClickListener(Pokedex.EGG_10KM));
 
         mPokeGrid.setAdapter(new PokemonGridAdapter(getContext(), Universal.getPokemonManager().getPokemons()));
     }
 
 
-    public View.OnClickListener getEggOnClickListener() {
+    public View.OnClickListener getEggOnClickListener(final int eggId) {
         return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mSelectedEgg = eggId;
                 updateEggDrawables();
                 v.setSelected(true);
                 v.setBackground(getResources().getDrawable(R.drawable.selected_border));
@@ -76,6 +79,14 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-        ((MainActivity) getActivity()).replaceFragment(new EggOpenerFragment());
+        if (mSelectedEgg != null) {
+            Bundle args = new Bundle();
+            args.putInt(Universal.KEY_EGG_ID, mSelectedEgg);
+            EggOpenerFragment fragment = new EggOpenerFragment();
+            fragment.setArguments(args);
+            ((MainActivity) getActivity()).replaceFragment(fragment);
+        } else {
+            Toast.makeText(getContext(), R.string.error_choose_egg, Toast.LENGTH_LONG).show();
+        }
     }
 }

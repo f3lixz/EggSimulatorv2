@@ -12,6 +12,8 @@
     <string name="pokepop_iv_cp">CP RATING: %1$s</string>
     <string name="pokepop_iv_hp">HP RATING: %1$s</string>
 
+    <string name="error_choose_egg">Choose the egg you want to open before proceeding</string>
+
     <string name="egg_dont_crack">Disable cracking</string>
     <string name="twokm">2 km</string>
     <string name="fivekm">5 km</string>

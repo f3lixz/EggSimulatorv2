@@ -27,6 +27,14 @@ public class EggOpenerFragment extends Fragment implements View.OnClickListener 
     private PokePopDialog mPokePopDialog;
     private int mEggState = 0;
 
+    private int mEggId;
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        mEggId = getArguments().getInt(Universal.KEY_EGG_ID, Pokedex.EGG_2KM);
+        super.onCreate(savedInstanceState);
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -46,10 +54,7 @@ public class EggOpenerFragment extends Fragment implements View.OnClickListener 
             if (mPokePopDialog == null)
                 mPokePopDialog = new PokePopDialog(getActivity());
 
-            int pokeLevel = new Random().nextInt(Universal.getPlayerManager().getPlayer().getLevel()) + 1;
-            int pokeId = new Random().nextInt(Pokedex.POKEMON_NR) + 1;
-            Pokemon pokemon = Pokedex.getPokemonById(pokeId);
-            pokemon.setLevel(pokeLevel);
+            Pokemon pokemon = Pokedex.getRandomPokemon(mEggId, Universal.getPlayerManager().getPlayer().getLevel());
             mPokePopDialog.show();
             mPokePopDialog.setPokemon(pokemon);
             mEggState = 0;

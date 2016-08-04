@@ -10,6 +10,9 @@ import se.eggmaster.eggsimulator.Managers.PokemonManager;
  * Created by FelixTheMaster on 2016-07-29.
  */
 public final class Universal {
+
+    public static final String KEY_EGG_ID = "Egg_id_key";
+
     private static PlayerManager mPlayerManager;
     private static PokemonManager mPokemonManager;
     private static Context mainContext;
