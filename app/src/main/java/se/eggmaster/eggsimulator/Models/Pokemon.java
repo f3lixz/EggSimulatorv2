@@ -3,6 +3,7 @@ package se.eggmaster.eggsimulator.Models;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
+import java.util.Comparator;
 
 
 /**
@@ -126,5 +127,12 @@ public class Pokemon implements Serializable {
     @Override
     public String toString() {
         return "{" + mName + "} lv: " + mLevel + ", hp: " + mHP + ", cp: " + mCP + ", w: " + mWeight + ", h: " + mHeight;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this.getName().equals(((Pokemon) o).getName()))
+            return true;
+        return false;
     }
 }
