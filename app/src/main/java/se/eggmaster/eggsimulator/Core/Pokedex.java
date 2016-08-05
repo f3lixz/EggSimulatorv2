@@ -356,7 +356,7 @@ public final class Pokedex {
         }
 
         int pokeLevel = new Random().nextInt(playerLevel) + 1;
-        int eggIndex = new Random().nextInt(pokeSection.length-1) + 1;
+        int eggIndex = new Random().nextInt(pokeSection.length);
         int pokeId = pokeSection[eggIndex];
         Pokemon pokemon = Pokedex.getPokemonById(pokeId);
         pokemon.setLevel(pokeLevel);
@@ -380,6 +380,11 @@ public final class Pokedex {
         Pokemon pokemonTemplate = mPokemonById.get(id);
         Pokemon pokemonClose = new Pokemon(pokemonTemplate.getName(), pokemonTemplate.getBaseAttack(), pokemonTemplate.getBaseDefence(), pokemonTemplate.getBaseStamina(), pokemonTemplate.getImageRes());
         return pokemonClose;
+    }
+
+    public static boolean isNew(Pokemon pokemon) {
+        int pokeIndex = getPokedexIndex(pokemon);
+        return !Universal.getPokemonManager().getPokemonIds().contains(pokeIndex);
     }
 
     public static int getPokedexIndex(Pokemon pokemon) {

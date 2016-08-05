@@ -72,9 +72,9 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
     private void updateMasks() {
         if (Universal.getPlayerManager().getPlayer().getProgress() < Pokedex.EGG_5KM) {
             mEgg5kmMask.setVisibility(View.VISIBLE);
-            if (Universal.getPlayerManager().getPlayer().getProgress() < Pokedex.EGG_10KM) {
-                mEgg10kmMask.setVisibility(View.VISIBLE);
-            }
+        }
+        if (Universal.getPlayerManager().getPlayer().getProgress() < Pokedex.EGG_10KM) {
+            mEgg10kmMask.setVisibility(View.VISIBLE);
         }
 
     }

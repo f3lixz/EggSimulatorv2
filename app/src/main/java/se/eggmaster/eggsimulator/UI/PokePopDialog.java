@@ -17,6 +17,7 @@ import com.triggertrap.seekarc.SeekArc;
 
 import org.w3c.dom.Text;
 
+import se.eggmaster.eggsimulator.Core.Pokedex;
 import se.eggmaster.eggsimulator.Core.PokemonGenerator;
 import se.eggmaster.eggsimulator.Core.Universal;
 import se.eggmaster.eggsimulator.Models.Pokemon;
@@ -27,7 +28,7 @@ import se.eggmaster.eggsimulator.R;
  */
 public class PokePopDialog extends Dialog implements View.OnClickListener {
 
-    private TextView mNameText, mLevelText, mHPText, mCPText, mIVCPText, mIVHPText, mHeightText, mWeightText;
+    private TextView mNameText, mLevelText, mHPText, mCPText, mIVCPText, mIVHPText, mNewText, mHeightText, mWeightText;
     private ImageView mImage;
     private Button mOkButton, mSaveButton;
     private ProgressBar mIVCPProgress, mIVHPProgress;
@@ -51,6 +52,7 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         mCPText = (TextView) findViewById(R.id.cpText);
         mIVCPText = (TextView) findViewById(R.id.ivCPText);
         mIVHPText = (TextView) findViewById(R.id.ivHPText);
+        mNewText= (TextView) findViewById(R.id.newText);
         //mWeightText = (TextView) findViewById(R.id.weightText);
         //mHeightText = (TextView) findViewById(R.id.heightText);
         mOkButton= (Button) findViewById(R.id.ok_button);
@@ -87,6 +89,10 @@ public class PokePopDialog extends Dialog implements View.OnClickListener {
         mIVHPText.setText(getString(R.string.pokepop_iv_hp, hpiv) + "%");
         mIVCPProgress.setProgress(cpiv);
         mIVHPProgress.setProgress(hpiv);
+        if (Pokedex.isNew(mPokemon))
+            mNewText.setVisibility(View.VISIBLE);
+        else
+            mNewText.setVisibility(View.GONE);
 
         if (mPokemon.getImageRes() != null)
             mImage.setImageResource(mPokemon.getImageRes());
