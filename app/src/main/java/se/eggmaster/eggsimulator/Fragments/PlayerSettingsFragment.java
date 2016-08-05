@@ -27,8 +27,7 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
 
     private Button mContinueButton;
 
-    private ImageView mEgg2km, mEgg5km, mEgg10km;
-    private View mEgg5kmMask, mEgg10kmMask;
+    private ImageView mEgg2km, mEgg5km, mEgg10km, mEgg5kmMask, mEgg10kmMask;
 
     private Integer mSelectedEgg;
 
@@ -62,8 +61,8 @@ public class PlayerSettingsFragment extends Fragment implements View.OnClickList
         mEgg10km = (ImageView) view.findViewById(R.id.egg3);
         mEgg10km.setOnClickListener(getEggOnClickListener(Pokedex.EGG_10KM));
 
-        mEgg5kmMask = view.findViewById(R.id.disabledView2);
-        mEgg10kmMask = view.findViewById(R.id.disabledView3);
+        mEgg5kmMask = (ImageView) view.findViewById(R.id.disabledView2);
+        mEgg10kmMask = (ImageView) view.findViewById(R.id.disabledView3);
 
         updateMasks();
 
