@@ -23,7 +23,7 @@ import se.eggmaster.eggsimulator.R;
 public class InfoDialog extends Dialog {
 
     private GridView mPokeGrid;
-    private int mEgg = Pokedex.EGG_2KM;
+    private int mEgg;
 
     public InfoDialog(Context context, int eggId) {
         super(context);
